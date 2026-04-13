@@ -1,0 +1,10 @@
+model_name: FreedomIntelligence/HuatuoGPT-Vision-7B-Qwen2.5VL
+split: test
+condition: original
+seed: 42
+max_samples: null
+max_new_tokens: 16
+lpf_sigma: 3.0
+hpf_sigma: 3.0
+patch_size: 16
+open_match_mode: exact
