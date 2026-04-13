@@ -18,10 +18,21 @@ from src.utils.seed import set_seed
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model_name", type=str, default="FreedomIntelligence/HuatuoGPT-Vision-7B-Qwen2.5VL")
-    parser.add_argument("--slake_root", type=str, required=True)
+    parser.add_argument(
+        "--model_name",
+        type=str,
+        default="FreedomIntelligence/HuatuoGPT-Vision-7B-Qwen2.5VL",
+    )
+    parser.add_argument("--slake_root", type=str, default=None)
+    parser.add_argument("--use_hf", action="store_true")
+    parser.add_argument("--hf_dataset_name", type=str, default="BoKelvin/SLAKE")
     parser.add_argument("--split", type=str, default="test")
-    parser.add_argument("--condition", type=str, default="original", choices=["original", "black", "lpf", "hpf", "patch_shuffle"])
+    parser.add_argument(
+        "--condition",
+        type=str,
+        default="original",
+        choices=["original", "black", "lpf", "hpf", "patch_shuffle"],
+    )
     parser.add_argument("--output_dir", type=str, required=True)
     parser.add_argument("--max_samples", type=int, default=None)
     parser.add_argument("--seed", type=int, default=42)
@@ -30,7 +41,12 @@ def parse_args():
     parser.add_argument("--patch_size", type=int, default=16)
     parser.add_argument("--device", type=str, default="cuda")
     parser.add_argument("--max_new_tokens", type=int, default=16)
-    parser.add_argument("--open_match_mode", type=str, default="exact", choices=["exact", "substring"])
+    parser.add_argument(
+        "--open_match_mode",
+        type=str,
+        default="exact",
+        choices=["exact", "substring"],
+    )
     return parser.parse_args()
 
 
@@ -40,7 +56,17 @@ def main():
     logger = setup_logger(args.output_dir)
     set_seed(args.seed)
 
-    dataset = SlakeDataset(args.slake_root, split=args.split, english_only=True)
+    if not args.use_hf and args.slake_root is None:
+        raise ValueError("When --use_hf is not set, --slake_root must be provided.")
+
+    dataset = SlakeDataset(
+        slake_root=args.slake_root,
+        split=args.split,
+        english_only=True,
+        use_hf=args.use_hf,
+        hf_dataset_name=args.hf_dataset_name,
+    )
+
     if args.max_samples is not None:
         dataset.samples = dataset.samples[: args.max_samples]
 
@@ -54,6 +80,7 @@ def main():
         sample = dataset[idx]
         try:
             image = sample["image"]
+
             if args.condition == "lpf":
                 image = condition_fn(image, sigma=args.lpf_sigma)
             elif args.condition == "hpf":
@@ -63,18 +90,27 @@ def main():
             else:
                 image = condition_fn(image)
 
-            pred_raw = model.generate_answer(image=image, question=sample["question"], max_new_tokens=args.max_new_tokens)
+            pred_raw = model.generate_answer(
+                image=image,
+                question=sample["question"],
+                max_new_tokens=args.max_new_tokens,
+            )
 
             if sample["answer_type"] == "closed":
                 gt_norm = parse_closed_answer(sample["answer"])
                 pred_norm = parse_closed_answer(pred_raw)
+
                 is_correct = (gt_norm is not None) and (pred_norm == gt_norm)
                 pred_eval = pred_norm if pred_norm is not None else normalize_text(pred_raw)
                 gt_eval = gt_norm if gt_norm is not None else normalize_text(sample["answer"])
             else:
                 pred_eval = normalize_text(pred_raw)
                 gt_eval = normalize_text(sample["answer"])
-                is_correct = open_match(pred_raw, sample["answer"], mode=args.open_match_mode)
+                is_correct = open_match(
+                    pred_raw,
+                    sample["answer"],
+                    mode=args.open_match_mode,
+                )
 
             rows.append(
                 {
@@ -91,8 +127,14 @@ def main():
                     "is_correct": bool(is_correct),
                 }
             )
+
         except Exception as exc:
-            logger.exception("Failed on sample idx=%d question_id=%s: %s", idx, sample.get("question_id"), exc)
+            logger.exception(
+                "Failed on sample idx=%d question_id=%s: %s",
+                idx,
+                sample.get("question_id"),
+                exc,
+            )
 
     summary = build_summary(rows)
     summary["meta"] = {
@@ -105,6 +147,9 @@ def main():
         "hpf_sigma": args.hpf_sigma,
         "patch_size": args.patch_size,
         "open_match_mode": args.open_match_mode,
+        "use_hf": args.use_hf,
+        "hf_dataset_name": args.hf_dataset_name,
+        "slake_root": args.slake_root,
     }
 
     save_jsonl(rows, os.path.join(args.output_dir, "predictions.jsonl"))

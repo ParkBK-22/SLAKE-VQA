@@ -1,0 +1,72 @@
+{
+  "overall": {
+    "num_samples": 1061,
+    "accuracy": 0.22620169651272384
+  },
+  "by_answer_type": {
+    "closed": {
+      "num_samples": 416,
+      "accuracy": 0.4831730769230769
+    },
+    "open": {
+      "num_samples": 645,
+      "accuracy": 0.06046511627906977
+    }
+  },
+  "by_q_type": {
+    "Abnormality": {
+      "num_samples": 150,
+      "accuracy": 0.4266666666666667
+    },
+    "Color": {
+      "num_samples": 34,
+      "accuracy": 0.058823529411764705
+    },
+    "KG": {
+      "num_samples": 148,
+      "accuracy": 0.20270270270270271
+    },
+    "Modality": {
+      "num_samples": 108,
+      "accuracy": 0.25925925925925924
+    },
+    "Organ": {
+      "num_samples": 253,
+      "accuracy": 0.31225296442687744
+    },
+    "Plane": {
+      "num_samples": 58,
+      "accuracy": 0.29310344827586204
+    },
+    "Position": {
+      "num_samples": 186,
+      "accuracy": 0.05913978494623656
+    },
+    "Quantity": {
+      "num_samples": 52,
+      "accuracy": 0.1346153846153846
+    },
+    "Shape": {
+      "num_samples": 7,
+      "accuracy": 0.2857142857142857
+    },
+    "Size": {
+      "num_samples": 65,
+      "accuracy": 0.0
+    }
+  },
+  "meta": {
+    "model_name": "FreedomIntelligence/HuatuoGPT-Vision-7B-Qwen2.5VL",
+    "split": "test",
+    "condition": "patch_shuffle",
+    "seed": 42,
+    "num_predictions": 1061,
+    "lpf_sigma": 3.0,
+    "hpf_sigma": 3.0,
+    "patch_size": 16,
+    "open_match_mode": "exact",
+    "use_hf": true,
+    "hf_dataset_name": "BoKelvin/SLAKE",
+    "slake_root": "/workspace/datasets/SLAKE_raw/Slake1.0"
+  }
+}

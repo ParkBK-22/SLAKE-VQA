@@ -1,0 +1,14 @@
+group,name,num_samples,accuracy
+overall,overall,1061,0.3939679547596607
+answer_type,closed,416,0.625
+answer_type,open,645,0.24496124031007752
+q_type,Abnormality,150,0.42
+q_type,Color,34,0.17647058823529413
+q_type,KG,148,0.25675675675675674
+q_type,Modality,108,0.6759259259259259
+q_type,Organ,253,0.525691699604743
+q_type,Plane,58,0.41379310344827586
+q_type,Position,186,0.3172043010752688
+q_type,Quantity,52,0.019230769230769232
+q_type,Shape,7,0.2857142857142857
+q_type,Size,65,0.2923076923076923
