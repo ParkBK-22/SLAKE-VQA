@@ -1,0 +1,1062 @@
+image_id,question_id,question,gt_answer,pred_answer,gt_answer_normalized,pred_answer_normalized,answer_type,q_type,condition,is_correct
+102,11934,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+102,11935,Which part of the body does this image belong to?,Chest,Skin,chest,skin,open,Position,patch_shuffle,False
+102,11936,What is the main organ in the image?,"Lung, Spinal Cord",No,lung spinal cord,no,open,Organ,patch_shuffle,False
+102,11937,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+102,11938,Does the picture contain liver?,No,No,no,no,closed,Organ,patch_shuffle,True
+102,11939,Does the picture contain lung?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+102,11940,Does the picture contain heart?,No,No.,no,no,closed,Organ,patch_shuffle,True
+102,11941,What diseases are included in the picture?,Lung Cancer,No,lung cancer,no,open,Abnormality,patch_shuffle,False
+102,11942,Is the lung healthy?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+102,11943,Where is/are the abnormality located?,"Left Lung, Right",Head,left lung right,head,open,Position,patch_shuffle,False
+102,11944,"Which is the biggest in this image,lung,liver or heart?",Lung,Lung,lung,lung,closed,Size,patch_shuffle,False
+103,11945,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+103,11946,Which part of the body does this image belong to?,Chest,Head,chest,head,open,Position,patch_shuffle,False
+103,11947,What is the main organ in the image?,Lung,No,lung,no,open,Organ,patch_shuffle,False
+103,11948,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+103,11949,Does the picture contain liver?,No,No.,no,no,closed,Organ,patch_shuffle,True
+103,11950,Does the picture contain lung?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+103,11951,What diseases are included in the picture?,Lung Cancer,No,lung cancer,no,open,Abnormality,patch_shuffle,False
+103,11952,Is the lung healthy?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+103,11953,Where is/are the abnormality located?,"Left Lung, Right",Head,left lung right,head,open,Position,patch_shuffle,False
+103,11954,"Which is the biggest in this image,lung,liver or heart?",Lung,Lung,lung,lung,closed,Size,patch_shuffle,False
+105,11955,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+105,11956,Which part of the body does this image belong to?,Chest,Head,chest,head,open,Position,patch_shuffle,False
+105,11957,What is the main organ in the image?,Lung,No,lung,no,open,Organ,patch_shuffle,False
+105,11958,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+105,11959,Does the picture contain liver?,No,No,no,no,closed,Organ,patch_shuffle,True
+105,11960,Does the picture contain lung?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+105,11961,Does the picture contain heart?,No,No.,no,no,closed,Organ,patch_shuffle,True
+105,11962,What diseases are included in the picture?,Lung Cancer,No,lung cancer,no,open,Abnormality,patch_shuffle,False
+105,11963,Is the lung healthy?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+105,11964,Where is/are the abnormality located?,"Right Lung, Left",Abdomen,right lung left,abdomen,open,Position,patch_shuffle,False
+124,11965,What modality is used to take this image?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+124,11966,Which part of the body does this image belong to?,Chest,Skin,chest,skin,open,Position,patch_shuffle,False
+124,11967,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+124,11968,What diseases are included in the picture?,Cardiomegaly,No,cardiomegaly,no,open,Abnormality,patch_shuffle,False
+124,11969,Where is/are the abnormality located?,Center,No,center,no,open,Position,patch_shuffle,False
+124,11970,Are there abnormalities in this image?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+124,11971,"Which organ is abnormal, heart or lung?",Heart,Lung,heart,lung,closed,Abnormality,patch_shuffle,False
+13,11972,What modality is used to take this image?,MRI,MRI,mri,mri,open,Modality,patch_shuffle,True
+13,11973,Which part of the body does this image belong to?,Abdomen,Head,abdomen,head,open,Position,patch_shuffle,False
+13,11974,What is the mr weighting in this image?,T2,T1,t2,t1,open,Modality,patch_shuffle,False
+13,11975,Is there any abnormality in the spleen?,No,No,no,no,closed,Abnormality,patch_shuffle,True
+13,11976,Does the liver look normal?,Yes,No.,yes,no,closed,Abnormality,patch_shuffle,False
+13,11977,Does the picture contain liver?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+13,11978,Does the picture contain kidney?,No,No.,no,no,closed,Organ,patch_shuffle,True
+13,11979,Does the picture contain spleen?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+130,11980,What modality is used to take this image?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+130,11981,Which part of the body does this image belong to?,Chest,Brain,chest,brain,open,Position,patch_shuffle,False
+130,11982,Are there abnormalities in this image?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+130,11983,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+130,11984,What diseases are included in the picture?,Pneumonia,No,pneumonia,no,open,Abnormality,patch_shuffle,False
+130,11985,Where is/are the abnormality located?,"Left Lung, Lower Right",Left lung,left lung lower right,left lung,open,Position,patch_shuffle,False
+130,11986,Does the lung look healthy?,No,No,no,no,closed,Abnormality,patch_shuffle,True
+135,11987,What modality is used to take this image?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+135,11988,Which part of the body does this image belong to?,Chest,Skin,chest,skin,open,Position,patch_shuffle,False
+135,11989,Are there abnormalities in this image?,Yes,No,yes,no,closed,Abnormality,patch_shuffle,False
+135,11990,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+135,11991,What diseases are included in the picture?,Cardiomegaly,No,cardiomegaly,no,open,Abnormality,patch_shuffle,False
+135,11992,Where is/are the abnormality located?,Center,No,center,no,open,Position,patch_shuffle,False
+135,11993,"Which organ is abnormal, heart or lung?",Heart,Lung,heart,lung,closed,Abnormality,patch_shuffle,False
+142,11994,What modality is used to take this image?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+142,11995,Which part of the body does this image belong to?,Chest,Skin,chest,skin,open,Position,patch_shuffle,False
+142,11996,Are there abnormalities in this image?,Yes,No,yes,no,closed,Abnormality,patch_shuffle,False
+142,11997,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+142,11998,What diseases are included in the picture?,Cardiomegaly,No,cardiomegaly,no,open,Abnormality,patch_shuffle,False
+142,11999,Where is/are the abnormality located?,Center,No,center,no,open,Position,patch_shuffle,False
+142,12000,"Which organ is abnormal, heart or lung?",Heart,Lung,heart,lung,closed,Abnormality,patch_shuffle,False
+147,12001,What modality is used to take this image?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+147,12002,Which part of the body does this image belong to?,Chest,Head,chest,head,open,Position,patch_shuffle,False
+147,12003,Are there abnormalities in this image?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+147,12004,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+147,12005,What diseases are included in the picture?,"Atelectasis, Mass",No,atelectasis mass,no,open,Abnormality,patch_shuffle,False
+147,12006,Where is/are the abnormality located?,Right Lung,Left lung,right lung,left lung,open,Position,patch_shuffle,False
+147,12007,Is the lung healthy?,No,No,no,no,closed,Abnormality,patch_shuffle,True
+147,12008,"Which organ is abnormal, heart or lung?",Lung,Lung,lung,lung,closed,Abnormality,patch_shuffle,False
+148,12009,What modality is used to take this image?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+148,12010,Which part of the body does this image belong to?,Chest,Head,chest,head,open,Position,patch_shuffle,False
+148,12011,Are there abnormalities in this image?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+148,12012,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+148,12013,What diseases are included in the picture?,Cardiomegaly,No,cardiomegaly,no,open,Abnormality,patch_shuffle,False
+148,12014,Where is/are the abnormality located?,Center,No,center,no,open,Position,patch_shuffle,False
+148,12015,"Which organ is abnormal, heart or lung?",Heart,Lung,heart,lung,closed,Abnormality,patch_shuffle,False
+152,12016,What modality is used to take this image?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+152,12017,Which part of the body does this image belong to?,Chest,Head,chest,head,open,Position,patch_shuffle,False
+152,12018,Are there abnormalities in this image?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+152,12019,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+152,12020,What diseases are included in the picture?,Cardiomegaly,No,cardiomegaly,no,open,Abnormality,patch_shuffle,False
+152,12021,Where is/are the abnormality located?,Center,No,center,no,open,Position,patch_shuffle,False
+152,12022,"Which organ is abnormal, heart or lung?",Heart,Lung,heart,lung,closed,Abnormality,patch_shuffle,False
+159,12023,What modality is used to take this image?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+159,12024,Which part of the body does this image belong to?,Chest,Skin,chest,skin,open,Position,patch_shuffle,False
+159,12025,Does this image look normal?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+159,12026,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+159,12027,What diseases are included in the picture?,Nodule,No,nodule,no,open,Abnormality,patch_shuffle,False
+159,12028,Where is/are the abnormality located?,"Left Lung, Right",No,left lung right,no,open,Position,patch_shuffle,False
+159,12029,Is the lung healthy?,No,No,no,no,closed,Abnormality,patch_shuffle,True
+159,12030,"Which organ is abnormal, heart or lung?",Lung,Lung,lung,lung,closed,Abnormality,patch_shuffle,False
+160,12031,What modality is used to take this image?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+160,12032,Which part of the body does this image belong to?,Chest,Skin,chest,skin,open,Position,patch_shuffle,False
+160,12033,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+160,12034,What diseases are included in the picture?,Nodule,No,nodule,no,open,Abnormality,patch_shuffle,False
+160,12035,Where is/are the abnormality located?,"Right Lung, Left",No,right lung left,no,open,Position,patch_shuffle,False
+160,12036,Does this image look normal?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+160,12037,Is the lung healthy?,No,No,no,no,closed,Abnormality,patch_shuffle,True
+160,12038,"Which organ is abnormal, heart or lung?",Lung,Lung,lung,lung,closed,Abnormality,patch_shuffle,False
+169,12039,What modality is used to take this image?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+169,12040,Which part of the body does this image belong to?,Chest,Head,chest,head,open,Position,patch_shuffle,False
+169,12041,Does this image look normal?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+169,12042,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+169,12043,What diseases are included in the picture?,Atelectasis,No,atelectasis,no,open,Abnormality,patch_shuffle,False
+169,12044,Where is/are the abnormality located?,"Right Lung, Lower Left",Left lung,right lung lower left,left lung,open,Position,patch_shuffle,False
+169,12045,Is the lung healthy?,No,No,no,no,closed,Abnormality,patch_shuffle,True
+169,12046,"Which organ is abnormal, heart or lung?",Lung,Lung,lung,lung,closed,Abnormality,patch_shuffle,False
+173,12047,What modality is used to take this image?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+173,12048,Which part of the body does this image belong to?,Chest,Eye,chest,eye,open,Position,patch_shuffle,False
+173,12049,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+173,12050,What diseases are included in the picture?,Pneumonia,No,pneumonia,no,open,Abnormality,patch_shuffle,False
+173,12051,Where is/are the abnormality located?,"Left Lung, Right",No,left lung right,no,open,Position,patch_shuffle,False
+173,12052,Is the lung healthy?,No,No,no,no,closed,Abnormality,patch_shuffle,True
+173,12053,Are there abnormalities in this image?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+173,12054,"Which organ is abnormal, heart or lung?",Lung,Lung,lung,lung,closed,Abnormality,patch_shuffle,False
+18,12055,What modality is used to take this image?,MRI,MRI,mri,mri,open,Modality,patch_shuffle,True
+18,12056,Which part of the body does this image belong to?,Abdomen,Head,abdomen,head,open,Position,patch_shuffle,False
+18,12057,What is the mr weighting in this image?,T2,T2-weighted,t2,t2weighted,open,Modality,patch_shuffle,False
+18,12058,How many kidneys are there in this image?,1,Two,1,two,open,Quantity,patch_shuffle,False
+18,12059,What is the largest organ in the picture?,Liver,No,liver,no,open,Size,patch_shuffle,False
+18,12060,Does the picture contain liver?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+18,12061,Does the picture contain kidney?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+18,12062,Does the picture contain spleen?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+18,12063,Does the liver look normal ?,Yes,No.,yes,no,closed,Abnormality,patch_shuffle,False
+18,12064,Does the kidney look abnormal?,No,Yes.,no,yes,closed,Abnormality,patch_shuffle,False
+18,12065,Do the spleen look abnormal?,No,Yes.,no,yes,closed,Abnormality,patch_shuffle,False
+185,12066,What modality is used to take this image?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+185,12067,Which part of the body does this image belong to?,Chest,Head,chest,head,open,Position,patch_shuffle,False
+185,12068,Does this image look abnormal?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+185,12069,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+185,12070,What diseases are included in the picture?,Pneumothorax,No,pneumothorax,no,open,Abnormality,patch_shuffle,False
+185,12071,Where is/are the abnormality located?,"Right Lung, Left",No,right lung left,no,open,Position,patch_shuffle,False
+185,12072,Is the lung healthy?,No,No,no,no,closed,Abnormality,patch_shuffle,True
+185,12073,Are there abnormalities in this image?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+185,12074,"Which organ is abnormal, heart or lung?",Lung,Lung,lung,lung,closed,Abnormality,patch_shuffle,False
+208,12075,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+208,12076,Which part of the body does this image belong to?,Abdomen,Head,abdomen,head,open,Position,patch_shuffle,False
+208,12077,What is the largest organ in the picture?,Liver,Skin,liver,skin,open,Size,patch_shuffle,False
+208,12078,Does the picture contain liver?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+208,12079,Does the picture contain kidney?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+208,12080,Does the picture contain spleen?,No,No.,no,no,closed,Organ,patch_shuffle,True
+208,12081,Does the picture contain lung?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+208,12082,Does the picture contain heart?,No,No,no,no,closed,Organ,patch_shuffle,True
+208,12083,Where is the liver?,Left,Abdomen,left,abdomen,open,Position,patch_shuffle,False
+208,12084,How many kidneys in this image?,2,Two,2,two,open,Quantity,patch_shuffle,False
+208,12085,Is the liver healthy?,Yes,No,yes,no,closed,Abnormality,patch_shuffle,False
+208,12086,"Which is bigger in this image, kidney or liver?",Liver,Liver,liver,liver,closed,Size,patch_shuffle,False
+208,12087,What is the organ located in the lower right corner of the body in this image?,Left Kidney,Kidney,left kidney,kidney,open,Organ,patch_shuffle,False
+208,12088,What is the organ on the left side of this image?,Liver,Kidney,liver,kidney,open,Organ,patch_shuffle,False
+208,12089,What is the scanning plane of this image?,Transverse  Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+219,12090,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+219,12091,Which part of the body does this image belong to?,Abdomen,Head,abdomen,head,open,Position,patch_shuffle,False
+219,12092,Does this image look normal?,Yes,No.,yes,no,closed,Abnormality,patch_shuffle,False
+219,12093,How many organs are there in this image?,4,0,4,0,open,Quantity,patch_shuffle,False
+219,12094,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+219,12095,Does the picture contain liver?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+219,12096,Does the picture contain kidney?,No,No.,no,no,closed,Organ,patch_shuffle,True
+219,12097,Does the picture contain spleen?,No,No.,no,no,closed,Organ,patch_shuffle,True
+219,12098,Does the picture contain lung?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+219,12099,Does the picture contain heart?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+219,12100,Where is the liver?,Top,Abdomen,top,abdomen,open,Position,patch_shuffle,False
+219,12101,Is the liver healthy?,Yes,No.,yes,no,closed,Abnormality,patch_shuffle,False
+219,12102,"Which is the biggest in this image, lung,heart or liver?",Lung,Liver,lung,liver,closed,Size,patch_shuffle,False
+219,12103,What is the rightmost organ in this image?,Left Lung,No,left lung,no,open,Organ,patch_shuffle,False
+219,12104,What is the organ on the left side of this image?,Right Lung,Kidney,right lung,kidney,open,Organ,patch_shuffle,False
+219,12105,What is the scanning plane of this image?,Transverse  Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+224,12106,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+224,12107,Which part of the body does this image belong to?,Abdomen,Head,abdomen,head,open,Position,patch_shuffle,False
+224,12108,What is the largest organ in the picture?,Liver,Skin,liver,skin,open,Size,patch_shuffle,False
+224,12109,Does the picture contain liver?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+224,12110,Does the picture contain kidney?,No,No.,no,no,closed,Organ,patch_shuffle,True
+224,12111,Does the picture contain spleen?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+224,12112,Does the picture contain lung?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+224,12113,Does the picture contain heart?,No,No.,no,no,closed,Organ,patch_shuffle,True
+224,12114,Where is the liver?,Left,Right upper quadrant,left,right upper quadrant,open,Position,patch_shuffle,False
+224,12115,How many kidneys in this image?,0,0,0,0,open,Quantity,patch_shuffle,True
+224,12116,"Which is the biggest in this image, spleen,lung, or liver?",Liver,Liver,liver,liver,closed,Size,patch_shuffle,False
+224,12117,What is the organ on the left side of this image?,Liver,Kidney,liver,kidney,open,Organ,patch_shuffle,False
+224,12118,What is the organ on the lower right corner of the body in this image?,Spleen,Kidney,spleen,kidney,open,Organ,patch_shuffle,False
+224,12119,What is the scanning plane of this image?,Transverse  Plane,Yes.,transverse plane,yes,open,Plane,patch_shuffle,False
+234,12120,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+234,12121,Which part of the body does this image belong to?,Abdomen,Head,abdomen,head,open,Position,patch_shuffle,False
+234,12122,What is the largest organ in the picture?,Liver,Skin,liver,skin,open,Size,patch_shuffle,False
+234,12123,Does the picture contain liver?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+234,12124,Does the picture contain kidney?,No,No.,no,no,closed,Organ,patch_shuffle,True
+234,12125,Does the picture contain spleen?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+234,12126,What diseases are included in the picture?,Liver Cancer,No,liver cancer,no,open,Abnormality,patch_shuffle,False
+234,12127,Where is the liver?,Left and top,Right upper quadrant,left and top,right upper quadrant,open,Position,patch_shuffle,False
+234,12128,Where is/are the abnormality located?,Liver,Head,liver,head,open,Position,patch_shuffle,False
+234,12129,How many kidneys in this image?,0,0,0,0,open,Quantity,patch_shuffle,True
+234,12130,"Which is bigger in this image, kidney or spleen?",Liver,Spleen,liver,spleen,closed,Size,patch_shuffle,False
+234,12131,What is the organ on the left side of this image?,Liver,Kidney,liver,kidney,open,Organ,patch_shuffle,False
+234,12132,Does this image look normal?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+234,12133,Does the picture contain lung?,No,No,no,no,closed,Organ,patch_shuffle,True
+234,12134,Does the picture contain heart?,No,No,no,no,closed,Organ,patch_shuffle,True
+234,12135,What is the rightmost organ in this image?,Spleen,No,spleen,no,open,Organ,patch_shuffle,False
+234,12136,What is the organ on the top of the body in this image?,Liver,Brain,liver,brain,open,Organ,patch_shuffle,False
+234,12137,What is the scanning plane of this image?,Transverse  Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+235,12138,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+235,12139,Which part of the body does this image belong to?,Abdomen,Head,abdomen,head,open,Position,patch_shuffle,False
+235,12140,What is the largest organ in the picture?,Liver,Skin,liver,skin,open,Size,patch_shuffle,False
+235,12141,Does the picture contain liver?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+235,12142,Does the picture contain kidney?,No,No.,no,no,closed,Organ,patch_shuffle,True
+235,12143,Does the picture contain spleen?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+235,12144,Where is the liver?,Left and top,Right upper quadrant,left and top,right upper quadrant,open,Position,patch_shuffle,False
+235,12145,Where is/are the abnormality located?,Liver,Head,liver,head,open,Position,patch_shuffle,False
+235,12146,How many kidneys in this image?,2,0,2,0,open,Quantity,patch_shuffle,False
+235,12147,Does this image look normal?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+235,12148,Does the picture contain lung?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+235,12149,Does the picture contain heart?,No,No.,no,no,closed,Organ,patch_shuffle,True
+235,12150,"Which is bigger in this image, liver or spleen?",Spleen,Liver,spleen,liver,closed,Size,patch_shuffle,False
+235,12151,What is the organ on the lower right corner of this image?,Spleen,Kidney,spleen,kidney,open,Organ,patch_shuffle,False
+235,12152,What is the organ on the top of the body in this image?,Liver,Brain,liver,brain,open,Organ,patch_shuffle,False
+235,12153,What is the scanning plane of this image?,Transverse  Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+24,12154,What modality is used to take this image?,MRI,MRI,mri,mri,open,Modality,patch_shuffle,True
+24,12155,Which part of the body does this image belong to?,Abdomen,Head,abdomen,head,open,Position,patch_shuffle,False
+24,12156,What is the mr weighting in this image?,T1,T1-weighted,t1,t1weighted,open,Modality,patch_shuffle,False
+24,12157,How many kidneys are there in this image?,0,No,0,no,open,Quantity,patch_shuffle,False
+24,12158,Does the picture contain liver?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+24,12159,Does the picture contain kidney?,No,No.,no,no,closed,Organ,patch_shuffle,True
+24,12160,Does the picture contain spleen?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+25,12161,What modality is used to take this image?,MRI,MRI,mri,mri,open,Modality,patch_shuffle,True
+25,12162,Which part of the body does this image belong to?,Abdomen,Head,abdomen,head,open,Position,patch_shuffle,False
+25,12163,What is the mr weighting in this image?,T1,T1-weighted,t1,t1weighted,open,Modality,patch_shuffle,False
+25,12164,Does the picture contain liver?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+25,12165,Does the picture contain kidney?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+25,12166,Does the picture contain spleen?,No,No.,no,no,closed,Organ,patch_shuffle,True
+25,12167,Where is the liver?,Not seen,Abdomen,not seen,abdomen,open,Position,patch_shuffle,False
+25,12168,How many kidneys in this image?,0,Two,0,two,open,Quantity,patch_shuffle,False
+25,12169,What is the organ on the left side of this image?,Lung,Yes.,lung,yes,open,Organ,patch_shuffle,False
+250,12170,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+250,12171,Which part of the body does this image belong to?,Abdomen,Head,abdomen,head,open,Position,patch_shuffle,False
+250,12172,Does this image look normal?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+250,12173,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+250,12174,Does the picture contain liver?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+250,12175,Does the picture contain kidney?,No,No.,no,no,closed,Organ,patch_shuffle,True
+250,12176,Does the picture contain spleen?,No,No.,no,no,closed,Organ,patch_shuffle,True
+250,12177,Does the picture contain lung?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+250,12178,Does the picture contain heart?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+250,12179,What diseases are included in the picture?,Liver Cancer,No,liver cancer,no,open,Abnormality,patch_shuffle,False
+250,12180,Where is the liver?,Upper Left,Right upper quadrant,upper left,right upper quadrant,open,Position,patch_shuffle,False
+250,12181,Where is/are the abnormality located?,Liver,Head,liver,head,open,Position,patch_shuffle,False
+250,12182,How many kidneys in this image?,0,0,0,0,open,Quantity,patch_shuffle,True
+250,12183,"Which is bigger in this image, liver or heart?",Liver,Liver,liver,liver,closed,Size,patch_shuffle,False
+250,12184,What organ is the gray part on the left of the image?,Liver,Kidney,liver,kidney,open,Organ,patch_shuffle,False
+250,12185,What organ is the black part on the left of the image?,Right Lung,Kidney,right lung,kidney,open,Organ,patch_shuffle,False
+250,12186,What is the organ on the top of the body in this image?,Heart and Liver,Brain,heart and liver,brain,open,Organ,patch_shuffle,False
+250,12187,What is the scanning plane of this image?,Transverse  Plane,Yes.,transverse plane,yes,open,Plane,patch_shuffle,False
+250,12188,What are the white points in the black part of the body?,Pulmonary bronchus,No.,pulmonary bronchus,no,open,Organ,patch_shuffle,False
+250,12189,Which is the kidney?,Symmetrical to the bone marrow,No,symmetrical to the bone marrow,no,open,Position,patch_shuffle,False
+252,12190,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+252,12191,Which part of the body does this image belong to?,Abdomen,Brain,abdomen,brain,open,Position,patch_shuffle,False
+252,12192,Does this image look normal?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+252,12193,What is the largest organ in the picture?,Liver,Skin,liver,skin,open,Size,patch_shuffle,False
+252,12194,Does the picture contain liver?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+252,12195,Does the picture contain kidney?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+252,12196,Does the picture contain spleen?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+252,12197,Does the picture contain lung?,No,No.,no,no,closed,Organ,patch_shuffle,True
+252,12198,Does the picture contain heart?,No,No.,no,no,closed,Organ,patch_shuffle,True
+252,12199,What diseases are included in the picture?,Liver Cancer,No,liver cancer,no,open,Abnormality,patch_shuffle,False
+252,12200,Where is/are the abnormality located?,Liver,Abdomen,liver,abdomen,open,Position,patch_shuffle,False
+252,12201,How many kidneys in this image?,2,0,2,0,open,Quantity,patch_shuffle,False
+252,12202,"Which is bigger in this image, kidney or spleen?",Spleen,No,spleen,no,closed,Size,patch_shuffle,False
+252,12203,What organ is the gray part on the left of the image?,Liver,Kidney,liver,kidney,open,Organ,patch_shuffle,False
+252,12204,What is the scanning plane of this image?,Transverse  Plane,Yes.,transverse plane,yes,open,Plane,patch_shuffle,False
+252,12205,What is the shape of the kidney in the picture?,Irregular,No,irregular,no,open,Shape,patch_shuffle,False
+252,12206,Which is the kidney?,Symmetrical to the bone marrow,No,symmetrical to the bone marrow,no,open,Position,patch_shuffle,False
+253,12207,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+253,12208,Which part of the body does this image belong to?,Abdomen,Head,abdomen,head,open,Position,patch_shuffle,False
+253,12209,Does this image look normal?,Yes,No.,yes,no,closed,Abnormality,patch_shuffle,False
+253,12210,What is the largest organ in the picture?,Liver,Skin,liver,skin,open,Size,patch_shuffle,False
+253,12211,Does the picture contain liver?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+253,12212,Does the picture contain kidney?,No,No,no,no,closed,Organ,patch_shuffle,True
+253,12213,Does the picture contain spleen?,No,No.,no,no,closed,Organ,patch_shuffle,True
+253,12214,Does the picture contain lung?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+253,12215,Does the picture contain heart?,No,No.,no,no,closed,Organ,patch_shuffle,True
+253,12216,Where is the liver?,Left,Right upper quadrant,left,right upper quadrant,open,Position,patch_shuffle,False
+253,12217,What organ is the gray part on the left of the image?,Liver,Kidney,liver,kidney,open,Organ,patch_shuffle,False
+253,12218,What organ is the black part on the left of the image?,Right Lung,Kidney,right lung,kidney,open,Organ,patch_shuffle,False
+253,12219,What is the scanning plane of this image?,Transverse  Plane,Yes.,transverse plane,yes,open,Plane,patch_shuffle,False
+253,12220,What are the white spots in the black part of the lower part of body?,Pulmonary bronchus,No,pulmonary bronchus,no,open,Organ,patch_shuffle,False
+264,12221,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+264,12222,Which part of the body does this image belong to?,Abdomen,Head,abdomen,head,open,Position,patch_shuffle,False
+264,12223,What is the largest organ in the picture?,Small Bowel,Skin,small bowel,skin,open,Size,patch_shuffle,False
+264,12224,Does the picture contain liver?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+264,12225,Does the picture contain kidney?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+264,12226,Does the picture contain spleen?,No,No.,no,no,closed,Organ,patch_shuffle,True
+264,12227,Does the picture contain lung?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+264,12228,Does the picture contain heart?,No,No.,no,no,closed,Organ,patch_shuffle,True
+264,12229,How many kidneys in this image?,2,Two,2,two,open,Quantity,patch_shuffle,False
+264,12230,What is the rightmost organ in this image?,Large Bowel,Liver,large bowel,liver,open,Organ,patch_shuffle,False
+264,12231,What organ is the gray part on the left of the image?,Large Bowel,Kidney,large bowel,kidney,open,Organ,patch_shuffle,False
+264,12232,What is the organ on the top of the body in this image?,Small Bowel,Brain,small bowel,brain,open,Organ,patch_shuffle,False
+264,12233,What is the scanning plane of this image?,Transverse  Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+264,12234,Which is the kidney?,Symmetrical to the bone marrow,No,symmetrical to the bone marrow,no,open,Position,patch_shuffle,False
+269,12235,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+269,12236,Which part of the body does this image belong to?,Abdomen,Head,abdomen,head,open,Position,patch_shuffle,False
+269,12237,What is the largest organ in the picture?,Liver,Skin,liver,skin,open,Size,patch_shuffle,False
+269,12238,Does the picture contain liver?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+269,12239,Does the picture contain kidney?,No,No.,no,no,closed,Organ,patch_shuffle,True
+269,12240,Does the picture contain spleen?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+269,12241,Does the picture contain lung?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+269,12242,Does the picture contain heart?,No,No.,no,no,closed,Organ,patch_shuffle,True
+269,12243,What is the rightmost organ in this image?,Large Bowel,Liver,large bowel,liver,open,Organ,patch_shuffle,False
+269,12244,What organ is the gray part on the left of the image?,Liver,Kidney,liver,kidney,open,Organ,patch_shuffle,False
+269,12245,What organ is the black part on the left of the image?,Right Lung,Liver,right lung,liver,open,Organ,patch_shuffle,False
+269,12246,What is the organ on the top of the body in this image?,Stomach,Brain,stomach,brain,open,Organ,patch_shuffle,False
+269,12247,What is the scanning plane of this image?,Transverse  Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+269,12248,What organ is the black hole in the upper right corner?,Large Bowel,No,large bowel,no,open,Organ,patch_shuffle,False
+274,12249,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+274,12250,Which part of the body does this image belong to?,Abdomen,Head,abdomen,head,open,Position,patch_shuffle,False
+274,12251,What is the largest organ in the picture?,Liver,Skin,liver,skin,open,Size,patch_shuffle,False
+274,12252,Does the picture contain liver?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+274,12253,Does the picture contain kidney?,No,No.,no,no,closed,Organ,patch_shuffle,True
+274,12254,Does the picture contain spleen?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+274,12255,Does the picture contain lung?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+274,12256,Does the picture contain heart?,No,No.,no,no,closed,Organ,patch_shuffle,True
+274,12257,How many kidneys in this image?,0,0,0,0,open,Quantity,patch_shuffle,True
+274,12258,"Which is bigger in this image, liver or spleen?",Liver,Liver,liver,liver,closed,Size,patch_shuffle,False
+274,12259,What is the rightmost organ in this image?,Large Bowel,No,large bowel,no,open,Organ,patch_shuffle,False
+274,12260,What organ is the gray part on the left of the image?,Liver,Kidney,liver,kidney,open,Organ,patch_shuffle,False
+274,12261,What organ is the black part on the left of the image?,Right Lung,Kidney,right lung,kidney,open,Organ,patch_shuffle,False
+274,12262,What is the scanning plane of this image?,Transverse  Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+274,12263,What organ is the black hole in the upper right corner?,Large Bowel,No,large bowel,no,open,Organ,patch_shuffle,False
+299,12264,What type of medical image is this?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+299,12265,What is the scanning plane of this image?,Coronal Plane,Axial,coronal plane,axial,open,Plane,patch_shuffle,False
+299,12266,Which part do the organs in this image locate from the aspect of the whole body?,Chest,Abdomen,chest,abdomen,open,Position,patch_shuffle,False
+299,12267,"Which side of lung is abnormal in this image,left or right?",Right,Right,right,right,closed,Position,patch_shuffle,False
+299,12268,What part of the lung is the pneumothorax located in?,Upper Right Lung,Right lung,upper right lung,right lung,open,Position,patch_shuffle,False
+299,12269,Which organ system is imaged?,Chest,No,chest,no,open,Organ,patch_shuffle,False
+299,12270,Which organs appear in pairs?,Lung,Lungs,lung,lungs,open,Organ,patch_shuffle,False
+299,12271,Is/Are there abnormalities in the patient's right lung?,Yes,No,yes,no,closed,Abnormality,patch_shuffle,False
+299,12272,Is this image normal?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+299,12273,Can pneumothorax be observed on the lower left lung in this picture?,No,No,no,no,closed,Abnormality,patch_shuffle,True
+299,12274,What color does the left lung show in the picture?,Black,Gray,black,gray,open,Color,patch_shuffle,False
+299,12275,How many lungs are shown in this image?,2,0,2,0,open,Quantity,patch_shuffle,False
+299,12276,What is the effect of the main organ in this picture?,Breathe,Filter blood,breathe,filter blood,open,KG,patch_shuffle,False
+299,12277,What kind of symptoms will the disease on the upper right of lung bring to the patient?,"Chest pain, dyspnea",Yes,chest pain dyspnea,yes,open,KG,patch_shuffle,False
+299,12278,Which organs/organ in the picture belong to the respiratory system?,Lung,Lungs,lung,lungs,open,KG,patch_shuffle,False
+304,12279,What imaging modality was used?,X-Ray,CT scan,xray,ct scan,open,Modality,patch_shuffle,False
+304,12280,Is this a transverse plane?,No,No,no,no,closed,Plane,patch_shuffle,True
+304,12281,Which part of the human body is the organ located in the image?,Chest,Brain,chest,brain,open,Position,patch_shuffle,False
+304,12282,Where is the abnormality in this image?,Lower Right Lung,Left lung,lower right lung,left lung,open,Position,patch_shuffle,False
+304,12283,Where is the atelectasis in this image?,Lower Right Lung,Left lung,lower right lung,left lung,open,Position,patch_shuffle,False
+304,12284,What is the organ system visualized?,Chest,Respiratory,chest,respiratory,open,Organ,patch_shuffle,False
+304,12285,Is this a study of the chest?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+304,12286,What disease is/are shown on the right of lung?,Atelectasis,Yes,atelectasis,yes,open,Abnormality,patch_shuffle,False
+304,12287,Is/Are there abnormalities in the patient's right lung?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+304,12288,Can atelectasis be observed on the upper right lung in this picture?,No,Yes.,no,yes,closed,Abnormality,patch_shuffle,False
+304,12289,What color does the left lung show in the picture?,Black,Gray,black,gray,open,Color,patch_shuffle,False
+304,12290,How many existing lungs in this image?,2,Two,2,two,open,Quantity,patch_shuffle,False
+304,12291,What is the function of the main organ in this picture?,Breathe,Respiratory system,breathe,respiratory system,open,KG,patch_shuffle,False
+304,12292,What is the main cause of the disease on the lower right of the lung in the picture?,Bronchial obstruction,Infection,bronchial obstruction,infection,open,KG,patch_shuffle,False
+304,12293,Which organs/organ in the picture belong to the circulatory system?,Heart,Heart,heart,heart,open,KG,patch_shuffle,True
+311,12294,Is this image taken via X-Ray?,Yes,Yes.,yes,yes,closed,Modality,patch_shuffle,True
+311,12295,Is this a transverse plane?,No,No,no,no,closed,Plane,patch_shuffle,True
+311,12296,Which part of the body does this image belong to?,Chest,Head,chest,head,open,Position,patch_shuffle,False
+311,12297,"Which side of lung is abnormal in this image,left or right?",Left,Right,left,right,closed,Position,patch_shuffle,False
+311,12298,Where is the mass in this image?,Lower Left Lung,Left breast,lower left lung,left breast,open,Position,patch_shuffle,False
+311,12299,Is this a study of the chest?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+311,12300,Is this a study of the pelvic cavity?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+311,12301,What disease is/are shown on the left of lung?,Pulmonary Mass,Yes,pulmonary mass,yes,open,Abnormality,patch_shuffle,False
+311,12302,Is the lung abnormal?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+311,12303,Can mass be observed on the lower left lung in this picture?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+311,12304,What color is the lung in the picture?,Black,Gray,black,gray,open,Color,patch_shuffle,False
+311,12305,How many existing heart in this image?,1,0,1,0,open,Quantity,patch_shuffle,False
+311,12306,How much damage will be caused to the body taking such an image?,A Little,Minimal,a little,minimal,open,KG,patch_shuffle,False
+311,12307,How to prevent the occurrence of the disease on the lower left lobe of lung in this image?,Keep healthy,Yes,keep healthy,yes,open,KG,patch_shuffle,False
+311,12308,Which organs/organ in the picture belong to the circulatory system?,Heart,Heart,heart,heart,open,KG,patch_shuffle,True
+312,12309,What type of medical image is this?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+312,12310,Is this a coronal section?,Yes,No,yes,no,closed,Plane,patch_shuffle,False
+312,12311,Which part of the body does this image belong to?,Chest,Skin,chest,skin,open,Position,patch_shuffle,False
+312,12312,Where is the abnormality in this image?,Lower Left Lung,No,lower left lung,no,open,Position,patch_shuffle,False
+312,12313,Where is the atelectasis in this image?,Lower Left Lung,Left lung,lower left lung,left lung,open,Position,patch_shuffle,False
+312,12314,Is this a study of the neck?,No,No,no,no,closed,Organ,patch_shuffle,True
+312,12315,What is the main organ in the image?,Lung,No,lung,no,open,Organ,patch_shuffle,False
+312,12316,Does the patient have any abnormalities?,Yes,No,yes,no,closed,Abnormality,patch_shuffle,False
+312,12317,Is this image normal?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+312,12318,Can atelectasis be observed on the lower left lung in this picture?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+312,12319,What color does the right lung show in the picture?,Black,Gray,black,gray,open,Color,patch_shuffle,False
+312,12320,How many lungs are shown in this image?,2,0,2,0,open,Quantity,patch_shuffle,False
+312,12321,How much damage will be caused to the body taking such an image?,A Little,None,a little,none,open,KG,patch_shuffle,False
+312,12322,How to treat the disease located on the left of lung in this image?,"Physical therapy, surgical treatment",The image provided does not show any specific disease or abnormality on the left side,physical therapy surgical treatment,the image provided does not show any specific disease or abnormality on the left side,open,KG,patch_shuffle,False
+312,12323,Which organs/organ in the picture belong to the respiratory system?,Lung,Lungs,lung,lungs,open,KG,patch_shuffle,False
+314,12324,Is this image taken via X-Ray?,Yes,Yes.,yes,yes,closed,Modality,patch_shuffle,True
+314,12325,What is the scanning plane of this image?,Coronal Plane,Axial,coronal plane,axial,open,Plane,patch_shuffle,False
+314,12326,Which part of the body does this image belong to?,Chest,Eye,chest,eye,open,Position,patch_shuffle,False
+314,12327,"Which side of lung is abnormal in this image,left or right?",Right,Right,right,right,closed,Position,patch_shuffle,False
+314,12328,Where is the pneumonia in the lung?,Right Lung,Left lower lobe,right lung,left lower lobe,open,Position,patch_shuffle,False
+314,12329,What organ system is primarily present in this image?,Chest,Respiratory,chest,respiratory,open,Organ,patch_shuffle,False
+314,12330,What organ system is pictured?,Chest,Respiratory,chest,respiratory,open,Organ,patch_shuffle,False
+314,12331,What disease is/are shown on the right of lung?,Pneumonia,Yes,pneumonia,yes,open,Abnormality,patch_shuffle,False
+314,12332,Does the lung look abnormal?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+314,12333,Can pneumonia be observed on the right lung in this picture?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+314,12334,What color does the right lung show in the picture?,Black,Gray,black,gray,open,Color,patch_shuffle,False
+314,12335,How many existing lungs in this image?,2,0,2,0,open,Quantity,patch_shuffle,False
+314,12336,What can the organ with black color in this image be used for?,Breathe,Filter,breathe,filter,open,KG,patch_shuffle,False
+314,12337,How to treat the disease located on the right of lung in this image?,"Medical therapy, supportive therapy",Yes,medical therapy supportive therapy,yes,open,KG,patch_shuffle,False
+314,12338,Which organs/organ is part of the circulatory system in this image?,Heart,Heart,heart,heart,open,KG,patch_shuffle,True
+320,12339,What modality is shown in this image?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+320,12340,"Which plane is the image scanned, transverse plane or coronal plane?",Coronal Plane,Transverse plane,coronal plane,transverse plane,closed,Plane,patch_shuffle,False
+320,12341,Do the organs in the image exist in the abdomen?,No,No,no,no,closed,Position,patch_shuffle,True
+320,12342,Where is the abnormality in this image?,Heart,No,heart,no,open,Position,patch_shuffle,False
+320,12343,Where is the cardiomegaly in this image?,Heart,No,heart,no,open,Position,patch_shuffle,False
+320,12344,Which organs appear in pairs?,Lung,Lungs,lung,lungs,open,Organ,patch_shuffle,False
+320,12345,Which organ system is imaged?,Chest,No,chest,no,open,Organ,patch_shuffle,False
+320,12346,What diseases are included in the picture?,Cardiomegaly,No,cardiomegaly,no,open,Abnormality,patch_shuffle,False
+320,12347,Is this image normal?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+320,12348,Can cardiomegaly be observed on the heart in this picture?,Yes,No,yes,no,closed,Abnormality,patch_shuffle,False
+320,12349,What color does the left lung show in the picture?,Black,Gray,black,gray,open,Color,patch_shuffle,False
+320,12350,How many organs are there in this image?,2,0,2,0,open,Quantity,patch_shuffle,False
+320,12351,What is the function of the main organ in this picture?,Breathe,Filter blood,breathe,filter blood,open,KG,patch_shuffle,False
+320,12352,What kind of symptoms will the disease on the heart in this image bring to the patient?,"Chest tightness, arrhythmia",No,chest tightness arrhythmia,no,open,KG,patch_shuffle,False
+320,12353,Which organs/organ is part of the circulatory system in this image?,Heart,No,heart,no,open,KG,patch_shuffle,False
+329,12354,What type of medical image is this?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+329,12355,Is this sagittal plane?,No,No,no,no,closed,Plane,patch_shuffle,True
+329,12356,Which part of the body does this image belong to?,Chest,Head,chest,head,open,Position,patch_shuffle,False
+329,12357,Which lobe is abnormal in this image?,Left,Left lobe,left,left lobe,open,Position,patch_shuffle,False
+329,12358,Where is the pulmonary infiltration in this image?,Lower Left Lung,Yes.,lower left lung,yes,open,Position,patch_shuffle,False
+329,12359,What organ system is pictured?,Chest,No,chest,no,open,Organ,patch_shuffle,False
+329,12360,What organ system is primarily present in this image?,Chest,Respiratory,chest,respiratory,open,Organ,patch_shuffle,False
+329,12361,Does the lung look abnormal?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+329,12362,What diseases are included in the picture?,Pulmonary Infiltration,No,pulmonary infiltration,no,open,Abnormality,patch_shuffle,False
+329,12363,Can pulmonary infiltration be observed on the upper right lung in this picture?,No,Yes.,no,yes,closed,Abnormality,patch_shuffle,False
+329,12364,What color does the left lung show in the picture?,Black,Gray,black,gray,open,Color,patch_shuffle,False
+329,12365,How many organs are there in this image?,2,0,2,0,open,Quantity,patch_shuffle,False
+329,12366,What is the effect of the main organ in this picture?,Breathe,No,breathe,no,open,KG,patch_shuffle,False
+329,12367,How to prevent the occurrence of the disease on the lower left lobe of lung in this image?,"Live healthy, enhance physical fitness",No,live healthy enhance physical fitness,no,open,KG,patch_shuffle,False
+329,12368,Which organs/organ is part of the respiratory system in this image?,Lung,Lungs,lung,lungs,open,KG,patch_shuffle,False
+338,12369,What imaging modality was used?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+338,12370,"Which plane is the image scanned, transverse plane or coronal plane?",Coronal Plane,Transverse plane,coronal plane,transverse plane,closed,Plane,patch_shuffle,False
+338,12371,Which part do the organs in this image locate from the aspect of the whole body?,Chest,Abdomen,chest,abdomen,open,Position,patch_shuffle,False
+338,12372,Where is the abnormality in this image?,Lower Left Lung,No,lower left lung,no,open,Position,patch_shuffle,False
+338,12373,Where is the pulmonary nodule located in this image?,Lower Left Lung,Left lung,lower left lung,left lung,open,Position,patch_shuffle,False
+338,12374,What is the organ system visualized?,Chest,No,chest,no,open,Organ,patch_shuffle,False
+338,12375,Which organ system is imaged?,Chest,Lungs,chest,lungs,open,Organ,patch_shuffle,False
+338,12376,Is the lung normal appearing?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+338,12377,Is this image normal?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+338,12378,Can nodule be observed on the lower left lung in this picture?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+338,12379,What color does the right lung show in the picture?,Black,Gray,black,gray,open,Color,patch_shuffle,False
+338,12380,How many lungs are shown in this image?,2,Two,2,two,open,Quantity,patch_shuffle,False
+338,12381,What is the function of the main organ in this picture?,Breathe,Filter blood,breathe,filter blood,open,KG,patch_shuffle,False
+338,12382,How to treat the disease located on the lower left of lung in this image?,"Medical treatment, surgical treatment",The image provided does not show any specific disease or abnormality in the lower left,medical treatment surgical treatment,the image provided does not show any specific disease or abnormality in the lower left,open,KG,patch_shuffle,False
+338,12383,Which organs/organ is part of the circulatory system in this image?,Heart,Heart,heart,heart,open,KG,patch_shuffle,True
+344,12384,What imaging modality was used?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+344,12385,"Which plane is the image scanned, transverse plane or coronal plane?",Coronal Plane,Transverse plane,coronal plane,transverse plane,closed,Plane,patch_shuffle,False
+344,12386,Which part of the human body is the organ located in the image?,Chest,Brain,chest,brain,open,Position,patch_shuffle,False
+344,12387,Where is/are the abnormality located in this picture?,Upper Right Lung,No,upper right lung,no,open,Position,patch_shuffle,False
+344,12388,Where is the nodule in this image?,Upper Right Lung,Left lung,upper right lung,left lung,open,Position,patch_shuffle,False
+344,12389,Which organ system is imaged?,Chest,No,chest,no,open,Organ,patch_shuffle,False
+344,12390,What organ system is pictured?,Chest,No,chest,no,open,Organ,patch_shuffle,False
+344,12391,Does the patient have any abnormalities?,Yes,No,yes,no,closed,Abnormality,patch_shuffle,False
+344,12392,Is the lung healthy?,No,No,no,no,closed,Abnormality,patch_shuffle,True
+344,12393,Can nodule be observed on the upper right lung in this picture?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+344,12394,What color does the right lung show in the picture?,Black,Gray,black,gray,open,Color,patch_shuffle,False
+344,12395,How many lungs are shown in this image?,2,0,2,0,open,Quantity,patch_shuffle,False
+344,12396,What is the function of the main organ in this picture?,Breathe,Filter blood,breathe,filter blood,open,KG,patch_shuffle,False
+344,12397,What kind of symptoms will the disease on the upper right lung bring to the patient?,"Chest tightness, fatigue",Yes,chest tightness fatigue,yes,open,KG,patch_shuffle,False
+344,12398,Which organs/organ in the picture belong to the respiratory system?,Lung,Lungs,lung,lungs,open,KG,patch_shuffle,False
+350,12399,Is this an MRI scan?,No,No.,no,no,closed,Modality,patch_shuffle,True
+350,12400,Is this a coronal plane?,Yes,No,yes,no,closed,Plane,patch_shuffle,False
+350,12401,Do the organs in the image exist in the chest?,Yes,No,yes,no,closed,Position,patch_shuffle,False
+350,12402,Where is the abnormality in this image?,Upper Left Lung,No,upper left lung,no,open,Position,patch_shuffle,False
+350,12403,What part of the lung is the pneumothorax located in?,Upper Left Lung,Right lung,upper left lung,right lung,open,Position,patch_shuffle,False
+350,12404,What organ system is pictured?,Chest,No,chest,no,open,Organ,patch_shuffle,False
+350,12405,Which organ system is imaged?,Chest,No,chest,no,open,Organ,patch_shuffle,False
+350,12406,Is the lung normal appearing?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+350,12407,Is/Are there abnormalities in the patient's left lung?,Yes,No,yes,no,closed,Abnormality,patch_shuffle,False
+350,12408,Can pneumothorax be observed on the lower right lung in this picture?,No,No,no,no,closed,Abnormality,patch_shuffle,True
+350,12409,What color is the lung in the picture?,Black,Gray,black,gray,open,Color,patch_shuffle,False
+350,12410,How many organs are there in this image?,2,0,2,0,open,Quantity,patch_shuffle,False
+350,12411,How much damage will be caused to the body taking such an image?,A Little,None,a little,none,open,KG,patch_shuffle,False
+350,12412,How to treat the disease located on the upper left of lung in this image?,"Medical therapy, supportive therapy",The image provided does not show any specific disease or abnormality in the lungs.,medical therapy supportive therapy,the image provided does not show any specific disease or abnormality in the lungs,open,KG,patch_shuffle,False
+350,12413,Which organs/organ in the picture belong to the circulatory system?,Heart,No,heart,no,open,KG,patch_shuffle,False
+357,12414,Is this a X-Ray?,Yes,Yes.,yes,yes,closed,Modality,patch_shuffle,True
+357,12415,What scanning plane does this image belong to?,Coronal Plane,Axial,coronal plane,axial,open,Plane,patch_shuffle,False
+357,12416,Do the organs in the image exist in the abdomen?,No,No,no,no,closed,Position,patch_shuffle,True
+357,12417,Where is the abnormality in this image?,Lower Left Lung,No,lower left lung,no,open,Position,patch_shuffle,False
+357,12418,Where is the pneumothorax in this image?,Lower Left Lung,Right lung,lower left lung,right lung,open,Position,patch_shuffle,False
+357,12419,What organ system is pictured?,Chest,No,chest,no,open,Organ,patch_shuffle,False
+357,12420,Which organ system is imaged?,Chest,No,chest,no,open,Organ,patch_shuffle,False
+357,12421,Are there abnormalities in this image?,Yes,No,yes,no,closed,Abnormality,patch_shuffle,False
+357,12422,Is the lung healthy?,No,No,no,no,closed,Abnormality,patch_shuffle,True
+357,12423,Can pneumothorax be observed on the lower left lung in this picture?,Yes,No,yes,no,closed,Abnormality,patch_shuffle,False
+357,12424,What color is the lung in the picture?,Black,Gray,black,gray,open,Color,patch_shuffle,False
+357,12425,How many existing heart in this image?,1,0,1,0,open,Quantity,patch_shuffle,False
+357,12426,What is the effect of the center organ in this picture?,Promote blood flow,No,promote blood flow,no,open,KG,patch_shuffle,False
+357,12427,What is the main cause of the disease on the lower left of the lung in the picture?,"Chest injury, lung disease, bullae",Infection,chest injury lung disease bullae,infection,open,KG,patch_shuffle,False
+357,12428,Which organs/organ in the picture belong to the circulatory system?,Heart,No,heart,no,open,KG,patch_shuffle,False
+361,12429,Is this image taken via X-Ray?,Yes,Yes.,yes,yes,closed,Modality,patch_shuffle,True
+361,12430,In what plane is this image scanned?,Coronal Plane,Axial,coronal plane,axial,open,Plane,patch_shuffle,False
+361,12431,Which part of the human body is the organ located in the image?,Chest,Brain,chest,brain,open,Position,patch_shuffle,False
+361,12432,Where is the abnormality in this image?,Left Lung,No,left lung,no,open,Position,patch_shuffle,False
+361,12433,Where is/are the nodule located in this image?,Left Lung,Left lung,left lung,left lung,open,Position,patch_shuffle,True
+361,12434,What is the main organ in the image?,Lung,No,lung,no,open,Organ,patch_shuffle,False
+361,12435,What organ system is pictured?,Chest,No,chest,no,open,Organ,patch_shuffle,False
+361,12436,Is the lung healthy?,No,No,no,no,closed,Abnormality,patch_shuffle,True
+361,12437,Is the lung abnormal?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+361,12438,Can nodule be observed on the lower right lung in this picture?,No,Yes.,no,yes,closed,Abnormality,patch_shuffle,False
+361,12439,What color is the lung in the picture?,Black,Gray,black,gray,open,Color,patch_shuffle,False
+361,12440,How many organs are there in this image?,2,0,2,0,open,Quantity,patch_shuffle,False
+361,12441,What is the function of the main organ in this picture?,Breathe,Filter blood,breathe,filter blood,open,KG,patch_shuffle,False
+361,12442,How to prevent the occurrence of the disease on the left lobe of lung in this image?,"Quit smoking, enhance physical fitness",Yes,quit smoking enhance physical fitness,yes,open,KG,patch_shuffle,False
+361,12443,Which organs/organ in the picture belong to the respiratory system?,Lung,Lungs,lung,lungs,open,KG,patch_shuffle,False
+367,12444,Is this image taken via X-Ray?,Yes,Yes.,yes,yes,closed,Modality,patch_shuffle,True
+367,12445,What scanning plane does this image belong to?,Coronal Plane,Axial,coronal plane,axial,open,Plane,patch_shuffle,False
+367,12446,Where does the picture show?,Chest,Head,chest,head,open,Position,patch_shuffle,False
+367,12447,"Which side of lung is abnormal in this image,left or right?",Left,Right,left,right,closed,Position,patch_shuffle,False
+367,12448,What part of the lung is the pneumonia located in?,Lower Left Lung,Left lower lobe,lower left lung,left lower lobe,open,Position,patch_shuffle,False
+367,12449,What is the organ system visualized?,Chest,No,chest,no,open,Organ,patch_shuffle,False
+367,12450,Which organs appear in pairs?,Lung,Lungs,lung,lungs,open,Organ,patch_shuffle,False
+367,12451,Are there abnormalities in this image?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+367,12452,Is the lung healthy?,No,No,no,no,closed,Abnormality,patch_shuffle,True
+367,12453,Can pneumonia be observed on the upper right lung in this picture?,No,Yes.,no,yes,closed,Abnormality,patch_shuffle,False
+367,12454,What color does the right lung show in the picture?,Black,White,black,white,open,Color,patch_shuffle,False
+367,12455,How many lungs are shown in this image?,2,Two,2,two,open,Quantity,patch_shuffle,False
+367,12456,What is the effect of the center organ in this picture?,Promote blood flow,No,promote blood flow,no,open,KG,patch_shuffle,False
+367,12457,How to treat the disease located on the lower left of lung in this image?,"Medical therapy, supportive therapy",Yes,medical therapy supportive therapy,yes,open,KG,patch_shuffle,False
+367,12458,Which organs/organ in the picture belong to the respiratory system?,Lung,Lungs,lung,lungs,open,KG,patch_shuffle,False
+374,12459,What type of medical image is this?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+374,12460,Is this a coronal plane?,Yes,No,yes,no,closed,Plane,patch_shuffle,False
+374,12461,Which part do the organs in this image locate from the aspect of the whole body?,Chest,Abdomen,chest,abdomen,open,Position,patch_shuffle,False
+374,12462,Where is the abnormality in this image?,Upper Right Lung,No,upper right lung,no,open,Position,patch_shuffle,False
+374,12463,What part of the lung is the pneumonia located in?,Upper Right Lung,Left lower lobe,upper right lung,left lower lobe,open,Position,patch_shuffle,False
+374,12464,Which organ system is imaged?,Chest,No,chest,no,open,Organ,patch_shuffle,False
+374,12465,Is this a study of the neck?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+374,12466,Does the lung look abnormal?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+374,12467,Are there abnormalities in this image?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+374,12468,Can pneumonia be observed on the upper right lung in this picture?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+374,12469,What color is the lung in the picture?,Black,Gray,black,gray,open,Color,patch_shuffle,False
+374,12470,How many existing heart in this image?,1,0,1,0,open,Quantity,patch_shuffle,False
+374,12471,What is the function of the main organ in this picture?,Breathe,Filter blood,breathe,filter blood,open,KG,patch_shuffle,False
+374,12472,How to prevent the occurrence of the disease on the upper right lobe of lung in this image?,"Pay attention to prevent cold and keep warm, enhance physical fitness",Yes,pay attention to prevent cold and keep warm enhance physical fitness,yes,open,KG,patch_shuffle,False
+374,12473,Which organs/organ is part of the respiratory system in this image?,Lung,Lung,lung,lung,open,KG,patch_shuffle,True
+375,12474,How was this image taken?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+375,12475,Is this a transverse section?,No,No,no,no,closed,Plane,patch_shuffle,True
+375,12476,Where does the picture show?,Chest,Brain,chest,brain,open,Position,patch_shuffle,False
+375,12477,Which side of lung is abnormal in this image?,Right,Right,right,right,open,Position,patch_shuffle,True
+375,12478,Where is the pneumonia in the lung?,Lower Right Lung,Left upper lobe,lower right lung,left upper lobe,open,Position,patch_shuffle,False
+375,12479,Is this a study of the chest?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+375,12480,What is the organ system visualized?,Chest,No,chest,no,open,Organ,patch_shuffle,False
+375,12481,What disease is/are shown on the right of lung?,Pneumonia,No,pneumonia,no,open,Abnormality,patch_shuffle,False
+375,12482,Is the lung normal appearing?,No,No,no,no,closed,Abnormality,patch_shuffle,True
+375,12483,Can pneumonia be observed on the lower right lung in this picture?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+375,12484,What color does the right lung show in the picture?,Black,White,black,white,open,Color,patch_shuffle,False
+375,12485,How many existing lungs in this image?,2,0,2,0,open,Quantity,patch_shuffle,False
+375,12486,What is the effect of the center organ in this picture?,Promote blood flow,No,promote blood flow,no,open,KG,patch_shuffle,False
+375,12487,How to prevent the occurrence of the disease on the lower right lobe of lung in this image?,"Pay attention to prevent cold and keep warm, enhance physical fitness",Yes,pay attention to prevent cold and keep warm enhance physical fitness,yes,open,KG,patch_shuffle,False
+375,12488,Which organs/organ is part of the circulatory system in this image?,Heart,Heart,heart,heart,open,KG,patch_shuffle,True
+378,12489,Is this image taken via CT?,No,No,no,no,closed,Modality,patch_shuffle,True
+378,12490,Is this a transverse plane?,No,No,no,no,closed,Plane,patch_shuffle,True
+378,12491,Where does the picture show?,Chest,No,chest,no,open,Position,patch_shuffle,False
+378,12492,Which side of lung is abnormal in this image?,Left,Right,left,right,open,Position,patch_shuffle,False
+378,12493,What part of the lung is the infiltration located in?,Lower Left Lung,Left lower lobe,lower left lung,left lower lobe,open,Position,patch_shuffle,False
+378,12494,Which organs appear in pairs?,Lung,Lungs,lung,lungs,open,Organ,patch_shuffle,False
+378,12495,What is the main organ in the image?,Lung,No,lung,no,open,Organ,patch_shuffle,False
+378,12496,Is/Are there abnormalities in the patient's left lung?,Yes,No,yes,no,closed,Abnormality,patch_shuffle,False
+378,12497,What disease is/are shown on the lower left of lung?,Pulmonary Infiltration,No,pulmonary infiltration,no,open,Abnormality,patch_shuffle,False
+378,12498,Can infiltration be observed on the lower left lung in this picture?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+378,12499,What color is the lung in the picture?,Black,Gray,black,gray,open,Color,patch_shuffle,False
+378,12500,How many existing lungs in this image?,2,0,2,0,open,Quantity,patch_shuffle,False
+378,12501,What can the organ with black color in this image be used for?,Breathe,Filtering blood,breathe,filtering blood,open,KG,patch_shuffle,False
+378,12502,What kind of symptoms will the disease on the lower left of lung bring to the patient?,"Chest pain, cough, expectoration",Yes,chest pain cough expectoration,yes,open,KG,patch_shuffle,False
+378,12503,Which organs/organ is part of the circulatory system in this image?,Heart,Heart,heart,heart,open,KG,patch_shuffle,True
+385,12504,Is this image taken via X-Ray?,Yes,No,yes,no,closed,Modality,patch_shuffle,False
+385,12505,Is this a coronal section?,Yes,No,yes,no,closed,Plane,patch_shuffle,False
+385,12506,Where does the image represent in the body?,Chest,Brain,chest,brain,open,Position,patch_shuffle,False
+385,12507,Which part of chest is abnormal in this image?,Lower Left Lung,Right upper lobe,lower left lung,right upper lobe,open,Position,patch_shuffle,False
+385,12508,Where is/are the effusion located?,Lower Left Lung,Right pleural cavity,lower left lung,right pleural cavity,open,Position,patch_shuffle,False
+385,12509,Which organ system is imaged?,Chest,No,chest,no,open,Organ,patch_shuffle,False
+385,12510,Is this a study of the head?,No,No.,no,no,closed,Organ,patch_shuffle,True
+385,12511,Does the patient have any abnormalities?,Yes,No,yes,no,closed,Abnormality,patch_shuffle,False
+385,12512,Does the lung look abnormal?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+385,12513,Can effusion be observed on the lower left lung in this picture?,Yes,No,yes,no,closed,Abnormality,patch_shuffle,False
+385,12514,What color does the left lung show in the picture?,Black,Gray,black,gray,open,Color,patch_shuffle,False
+385,12515,How many lungs are shown in this image?,2,0,2,0,open,Quantity,patch_shuffle,False
+385,12516,What can the organ with black color in this image be used for?,Breathe,Filtering blood,breathe,filtering blood,open,KG,patch_shuffle,False
+385,12517,What is the main cause of the disease on the lower left of the lung in the picture?,"Inflammation, malignant tumor, trauma, etc",Infection,inflammation malignant tumor trauma etc,infection,open,KG,patch_shuffle,False
+385,12518,Which organs/organ is part of the circulatory system in this image?,Heart,Heart,heart,heart,open,KG,patch_shuffle,True
+386,12519,What modality is used to take this image?,X-Ray,MRI,xray,mri,open,Modality,patch_shuffle,False
+386,12520,What scanning plane does this image belong to?,Coronal Plane,Axial,coronal plane,axial,open,Plane,patch_shuffle,False
+386,12521,Do the organs in the image exist in the chest?,Yes,No,yes,no,closed,Position,patch_shuffle,False
+386,12522,Where is the heart in this image?,Center,No,center,no,open,Position,patch_shuffle,False
+386,12523,Where is the pleural effusion?,Lower Left Lung,Right side,lower left lung,right side,open,Position,patch_shuffle,False
+386,12524,Is this a study of the abdomen?,No,No,no,no,closed,Organ,patch_shuffle,True
+386,12525,Is this a study of the pelvic cavity?,No,No.,no,no,closed,Organ,patch_shuffle,True
+386,12526,What diseases are included in the picture?,Pleural Effusion,No,pleural effusion,no,open,Abnormality,patch_shuffle,False
+386,12527,Is this image normal?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+386,12528,Can effusion be observed on the lower left lung in this picture?,Yes,No,yes,no,closed,Abnormality,patch_shuffle,False
+386,12529,What color does the left lung show in the picture?,Black,Gray,black,gray,open,Color,patch_shuffle,False
+386,12530,How many organs are there in this image?,2,0,2,0,open,Quantity,patch_shuffle,False
+386,12531,What is the effect of the main organ in this picture?,Breathe,No,breathe,no,open,KG,patch_shuffle,False
+386,12532,What kind of symptoms will the disease on the lower left of lung bring to the patient?,"Chest tightness, dyspnea, chest pain",Yes,chest tightness dyspnea chest pain,yes,open,KG,patch_shuffle,False
+386,12533,Which organs/organ is part of the respiratory system in this image?,Lung,Lungs,lung,lungs,open,KG,patch_shuffle,False
+401,12534,"Which type of modality is shown about this image, MRI, CT or X-Ray?",CT,MRI,ct,mri,closed,Modality,patch_shuffle,False
+401,12535,Is this sagittal plane?,No,No.,no,no,closed,Plane,patch_shuffle,True
+401,12536,Do the organs in the image exist in the head?,Yes,No.,yes,no,closed,Position,patch_shuffle,False
+401,12537,Where is the brain stem in this image?,Center,No,center,no,open,Position,patch_shuffle,False
+401,12538,Which organs appear in pairs?,Temporal Lobe,Lungs,temporal lobe,lungs,open,Organ,patch_shuffle,False
+401,12539,Is this a study of the abdomen?,No,No.,no,no,closed,Organ,patch_shuffle,True
+401,12540,Does the picture contain spleen?,No,No,no,no,closed,Organ,patch_shuffle,True
+401,12541,Does the temporal lobe appear in this image?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+401,12542,What color is the right temporal lobe in the picture?,Gray,Black,gray,black,open,Color,patch_shuffle,False
+401,12543,What is the largest organ in the picture?,Brain,Skin,brain,skin,open,Size,patch_shuffle,False
+401,12544,How many ears are shown in this image?,0,0,0,0,open,Quantity,patch_shuffle,True
+401,12545,How much damage will be caused to the body taking such an image?,Much,None,much,none,open,KG,patch_shuffle,False
+401,12546,Which organs/organ in the picture belong to the nervous system?,Brain,No,brain,no,open,KG,patch_shuffle,False
+401,12547,Are there some organs controlling heartbeat and breathing in this image?,Yes,No.,yes,no,closed,KG,patch_shuffle,False
+401,12548,Do any of the organs in the picture belong to the respiratory system?,No,No,no,no,closed,KG,patch_shuffle,True
+405,12549,Is this a CT?,Yes,No.,yes,no,closed,Modality,patch_shuffle,False
+405,12550,Is this sagittal plane?,No,No.,no,no,closed,Plane,patch_shuffle,True
+405,12551,Where does the image represent in the body?,Head,Brain,head,brain,open,Position,patch_shuffle,False
+405,12552,Where is the brain stem in this image?,Center,No,center,no,open,Position,patch_shuffle,False
+405,12553,What is the organ system visualized?,Head,No,head,no,open,Organ,patch_shuffle,False
+405,12554,What organ system is primarily present in this image?,Head,Respiratory,head,respiratory,open,Organ,patch_shuffle,False
+405,12555,Does the ears exist in this picture?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+405,12556,Does the picture contain bladder?,No,No.,no,no,closed,Organ,patch_shuffle,True
+405,12557,What color is the ears in the picture?,White,Black,white,black,open,Color,patch_shuffle,False
+405,12558,What is the largest organ in the picture?,Brain,Skin,brain,skin,open,Size,patch_shuffle,False
+405,12559,How many temporal lobes in this image?,0,Two,0,two,open,Quantity,patch_shuffle,False
+405,12560,What is the function of the tissue on the center of this image?,Control heartbeat and breathing,Unknown,control heartbeat and breathing,unknown,open,KG,patch_shuffle,False
+405,12561,Does the picture contain the organ which has the effect of storing urine?,No,Yes.,no,yes,closed,KG,patch_shuffle,False
+405,12562,Do any of the organs in the picture belong to the digestive system?,No,No,no,no,closed,KG,patch_shuffle,True
+407,12563,What modality is shown in this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+407,12564,In what plane is this image scanned?,Transverse Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+407,12565,Do the organs in the image exist in the head?,Yes,No.,yes,no,closed,Position,patch_shuffle,False
+407,12566,Where is the tooth in this image?,Top,No,top,no,open,Position,patch_shuffle,False
+407,12567,Is this a study of the abdomen?,No,No.,no,no,closed,Organ,patch_shuffle,True
+407,12568,What is the organ system visualized?,Head,No,head,no,open,Organ,patch_shuffle,False
+407,12569,Does the picture contain mandible?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+407,12570,Does the parotid appear in the image?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+407,12571,What color does the brain stem show in the picture?,Gray,White,gray,white,open,Color,patch_shuffle,False
+407,12572,What is the largest organ in the picture?,Brain,Skin,brain,skin,open,Size,patch_shuffle,False
+407,12573,How many mandibles in this image?,2,0,2,0,open,Quantity,patch_shuffle,False
+407,12574,What is the function of the organ on the top of this image?,"Cutting, chewing, maintaining facial contour and assisting pronunciation",Heart,cutting chewing maintaining facial contour and assisting pronunciation,heart,open,KG,patch_shuffle,False
+407,12575,Which organs/organ in the picture belong to nervous system?,Brain,No,brain,no,open,KG,patch_shuffle,False
+407,12576,Are there organs in the picture that can digest food?,No,No.,no,no,closed,KG,patch_shuffle,True
+407,12577,Do any of the organs in the picture belong to the circulatory system?,No,No.,no,no,closed,KG,patch_shuffle,True
+427,12578,What modality is shown in this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+427,12579,In what plane is this image scanned?,Transverse Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+427,12580,Do the organs in the image exist in the head?,No,No.,no,no,closed,Position,patch_shuffle,True
+427,12581,What organ system is pictured?,Neck,No,neck,no,open,Organ,patch_shuffle,False
+427,12582,Is there an esophagus in this image?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+427,12583,Does the trachea exist in this picture?,No,No,no,no,closed,Organ,patch_shuffle,True
+427,12584,What is the shape of larynx in this image?,Oval,Square,oval,square,open,Shape,patch_shuffle,False
+427,12585,Which organs/organ in the picture belong to the respiratory system?,Larynx,Lungs,larynx,lungs,open,KG,patch_shuffle,False
+427,12586,Are there organs in the picture that can deliver food?,Yes,No.,yes,no,closed,KG,patch_shuffle,False
+427,12587,Does the picture contain the organ which has the effect of gas delivery?,Yes,Yes.,yes,yes,closed,KG,patch_shuffle,True
+428,12588,Is this a CT?,Yes,No.,yes,no,closed,Modality,patch_shuffle,False
+428,12589,What scanning plane does this image belong to?,Transverse Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+428,12590,Where does the image represent in the body?,Neck,Brain,neck,brain,open,Position,patch_shuffle,False
+428,12591,Where is the esophagus in this image?,Under the trachea,No,under the trachea,no,open,Position,patch_shuffle,False
+428,12592,What organ system is primarily present in this image?,Neck,Respiratory,neck,respiratory,open,Organ,patch_shuffle,False
+428,12593,Does the ears exist in this picture?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+428,12594,Is there small bowel in this image?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+428,12595,What color do the trachea show in the picture?,Black,White,black,white,open,Color,patch_shuffle,False
+428,12596,What is the shape of trachea about this patient?,Irregular,Irregular,irregular,irregular,open,Shape,patch_shuffle,True
+428,12597,What role does the black hollow tissue play in the human body?,Gas delivery,Respiratory system,gas delivery,respiratory system,open,KG,patch_shuffle,False
+428,12598,Which organs/organ in the picture belong to the respiratory system?,Trachea,Lungs,trachea,lungs,open,KG,patch_shuffle,False
+428,12599,Do any of the organs in the picture belong to the nervous system?,Yes,No,yes,no,closed,KG,patch_shuffle,False
+428,12600,Does the picture contain the organ that could be used for detoxicating?,No,Yes.,no,yes,closed,KG,patch_shuffle,False
+429,12601,Is this an MRI scan?,No,No.,no,no,closed,Modality,patch_shuffle,True
+429,12602,Is this a transverse section?,Yes,No.,yes,no,closed,Plane,patch_shuffle,False
+429,12603,Which part of the body does this image belong to?,Neck,Head,neck,head,open,Position,patch_shuffle,False
+429,12604,Which is trachea in this image?,Black Hollow,No,black hollow,no,open,Position,patch_shuffle,False
+429,12605,What organ system is primarily present in this image?,Neck,Respiratory,neck,respiratory,open,Organ,patch_shuffle,False
+429,12606,Does the picture contain spinal cord?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+429,12607,Are/Is there kidneys in the picture?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+429,12608,What is the shape of trachea about this patient?,Irregular,Irregular,irregular,irregular,open,Shape,patch_shuffle,True
+429,12609,What role does the black hollow tissue play in the human body?,Gas delivery,No,gas delivery,no,open,KG,patch_shuffle,False
+429,12610,Which organs/organ in the picture belong to the digestive system?,Esophagus,No,esophagus,no,open,KG,patch_shuffle,False
+429,12611,Does the picture contain the organ which has the effect of discharging waste?,No,Yes.,no,yes,closed,KG,patch_shuffle,False
+429,12612,Do any of the organs in the picture belong to the nervous system?,Yes,No,yes,no,closed,KG,patch_shuffle,False
+436,12613,Is this a CT scan?,No,No.,no,no,closed,Modality,patch_shuffle,True
+436,12614,"Which kind of weighting is this image generated with, t1 or t2?",T2,T1,t2,t1,closed,Modality,patch_shuffle,False
+436,12615,What is the scanning plane of this image?,Transverse Plane,Yes.,transverse plane,yes,open,Plane,patch_shuffle,False
+436,12616,Do the organs in the image exist in the head?,Yes,No.,yes,no,closed,Position,patch_shuffle,False
+436,12617,"Which hemisphere is abnormal,left or right?",Right,Left,right,left,closed,Position,patch_shuffle,False
+436,12618,Which organ system is imaged?,Head,Respiratory,head,respiratory,open,Organ,patch_shuffle,False
+436,12619,What diseases are included in the picture?,"Brain Edema, Brain Enhancing Tumor",No,brain edema brain enhancing tumor,no,open,Abnormality,patch_shuffle,False
+436,12620,How many kinds of abnormalities are there in this image?,2,Yes.,2,yes,open,Quantity,patch_shuffle,False
+436,12621,What is the main cause of the disease on the right lobe of brain in this picture?,"Brain embryonic tissue dysplasia, genetic factors, chemical factors",Yes.,brain embryonic tissue dysplasia genetic factors chemical factors,yes,open,KG,patch_shuffle,False
+442,12622,How was this image taken?,MRI,Yes.,mri,yes,open,Modality,patch_shuffle,False
+442,12623,Is this an MRI image with T1 weighted?,No,No.,no,no,closed,Modality,patch_shuffle,True
+442,12624,Is this a coronal section?,No,No.,no,no,closed,Plane,patch_shuffle,True
+442,12625,Where does the picture show?,Head,Eye,head,eye,open,Position,patch_shuffle,False
+442,12626,Where is the brain non-enhancing tumor?,Upper Left Lobe,Yes.,upper left lobe,yes,open,Position,patch_shuffle,False
+442,12627,Which organ system is imaged?,Head,Respiratory,head,respiratory,open,Organ,patch_shuffle,False
+442,12628,Is the brain healthy?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+442,12629,What is the color of abnormality in this image?,White,Black,white,black,open,Color,patch_shuffle,False
+442,12630,What is the main cause of the disease on the upper left lobe of brain in this picture?,"Brain embryonic tissue dysplasia, genetic factors, chemical factors",Yes.,brain embryonic tissue dysplasia genetic factors chemical factors,yes,open,KG,patch_shuffle,False
+447,12631,What modality is used to take this image?,MRI,X-ray,mri,xray,open,Modality,patch_shuffle,False
+447,12632,"Which kind of weighting is this image generated with, t1 or t2?",T2,T1,t2,t1,closed,Modality,patch_shuffle,False
+447,12633,Is this sagittal plane?,No,No.,no,no,closed,Plane,patch_shuffle,True
+447,12634,Where does the picture show?,Head,Head,head,head,open,Position,patch_shuffle,True
+447,12635,"Which hemisphere is abnormal,left or right?",Left,Left,left,left,closed,Position,patch_shuffle,False
+447,12636,What organ system is primarily present in this image?,Head,Respiratory,head,respiratory,open,Organ,patch_shuffle,False
+447,12637,What disease is/are shown on the left of brain?,"Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",Yes.,brain edema brain enhancing tumor brain nonenhancing tumor,yes,open,Abnormality,patch_shuffle,False
+447,12638,Is the tumor enhancing?,Yes,Yes.,yes,yes,closed,Color,patch_shuffle,True
+447,12639,How many kinds of abnormalities are there in this image?,3,Yes.,3,yes,open,Quantity,patch_shuffle,False
+447,12640,What kind of symptoms will the disease on the left lobe of brain in the picture bring to the patient?,"Visual impairment, vomiting, tinnitus, increased intracranial pressure",Yes.,visual impairment vomiting tinnitus increased intracranial pressure,yes,open,KG,patch_shuffle,False
+468,12641,What modality is shown in this image?,MRI,MRI,mri,mri,open,Modality,patch_shuffle,True
+468,12642,Is this an MRI image with T1 weighted?,No,No.,no,no,closed,Modality,patch_shuffle,True
+468,12643,What is the scanning plane of this image?,Transverse Plane,Yes.,transverse plane,yes,open,Plane,patch_shuffle,False
+468,12644,Do the organs in the image exist in the chest?,No,No.,no,no,closed,Position,patch_shuffle,True
+468,12645,Where is the brain edema?,Left Lobe,Yes.,left lobe,yes,open,Position,patch_shuffle,False
+468,12646,Is this a study of the head?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+468,12647,Is the brain abnormal?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+468,12648,How many kinds of abnormalities are there in this image?,1,Yes.,1,yes,open,Quantity,patch_shuffle,False
+468,12649,How to treat the most severe disease in this image?,"Pharmacotherapy, rehabilitation",No,pharmacotherapy rehabilitation,no,open,KG,patch_shuffle,False
+469,12650,What modality is shown in this image?,MRI,MRI,mri,mri,open,Modality,patch_shuffle,True
+469,12651,Is this a T1 weighted or T2 weighted MRI image?,T2,T1 weighted,t2,t1 weighted,closed,Modality,patch_shuffle,False
+469,12652,Is this a coronal section?,No,No.,no,no,closed,Plane,patch_shuffle,True
+469,12653,Do the organs in the image exist in the abdomen?,No,Yes.,no,yes,closed,Position,patch_shuffle,False
+469,12654,Where are the abnormalities in this image?,Upper Left Lobe,Brain,upper left lobe,brain,open,Position,patch_shuffle,False
+469,12655,Is this a study of the head?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+469,12656,Is there evidence of a brain edema?,Yes,No.,yes,no,closed,Abnormality,patch_shuffle,False
+469,12657,Is the abnormality hyperdense or hypodense?,Hyperdense,Hyperdense,hyperdense,hyperdense,closed,Color,patch_shuffle,False
+469,12658,How many kinds of abnormalities are there in this image?,1,Yes.,1,yes,open,Quantity,patch_shuffle,False
+469,12659,How to treat the most severe disease in this image?,"Pharmacotherapy, rehabilitation",No,pharmacotherapy rehabilitation,no,open,KG,patch_shuffle,False
+471,12660,What type of medical image is this?,MRI,MRI,mri,mri,open,Modality,patch_shuffle,True
+471,12661,Is this a T1 weighted or T2 weighted MRI image?,T2,T1 weighted,t2,t1 weighted,closed,Modality,patch_shuffle,False
+471,12662,Is this a coronal section?,No,No.,no,no,closed,Plane,patch_shuffle,True
+471,12663,Which part of the body does this image belong to?,Head,Head,head,head,open,Position,patch_shuffle,True
+471,12664,Where is the brain tumor?,Upper Left Lobe,Unknown,upper left lobe,unknown,open,Position,patch_shuffle,False
+471,12665,What is the organ system visualized?,Head,No,head,no,open,Organ,patch_shuffle,False
+471,12666,Is this image normal?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+471,12667,How to prevent the occurrence of the disease on the upper left lobe of brain in this image?,"Pay attention to dietary hygiene, strengthen physical fitness and avoid brain trauma",No,pay attention to dietary hygiene strengthen physical fitness and avoid brain trauma,no,open,KG,patch_shuffle,False
+473,12668,What imaging modality was used?,MRI,MRI,mri,mri,open,Modality,patch_shuffle,True
+473,12669,"Which kind of weighting is this image generated with, t1 or t2?",T2,T1,t2,t1,closed,Modality,patch_shuffle,False
+473,12670,Is this a transverse section?,Yes,No.,yes,no,closed,Plane,patch_shuffle,False
+473,12671,Which part of the body does this image belong to?,Head,Head,head,head,open,Position,patch_shuffle,True
+473,12672,Where is the brain tumor?,Upper Right Lobe,Unknown,upper right lobe,unknown,open,Position,patch_shuffle,False
+473,12673,Is this a study of the neck?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+473,12674,What disease is/are shown on the upper right of brain?,"Brain Edema, Brain Non-enhancing Tumor",No,brain edema brain nonenhancing tumor,no,open,Abnormality,patch_shuffle,False
+473,12675,Is the abnormality hyperdense or hypodense?,Hyperdense,Hyperdense,hyperdense,hyperdense,closed,Color,patch_shuffle,False
+473,12676,What kind of symptoms will the disease on the upper right lobe of brain in the picture bring to the patient?,"Visual impairment, vomiting, tinnitus, increased intracranial pressure",Yes.,visual impairment vomiting tinnitus increased intracranial pressure,yes,open,KG,patch_shuffle,False
+474,12677,How was this image taken?,MRI,Yes.,mri,yes,open,Modality,patch_shuffle,False
+474,12678,Is this a T1 weighted or T2 weighted MRI image?,T2,T1 weighted,t2,t1 weighted,closed,Modality,patch_shuffle,False
+474,12679,Is this a coronal section?,No,No.,no,no,closed,Plane,patch_shuffle,True
+474,12680,Do the organs in the image exist in the abdomen?,No,Yes.,no,yes,closed,Position,patch_shuffle,False
+474,12681,Where is the brain tumor?,Upper Right Lobe,Unknown,upper right lobe,unknown,open,Position,patch_shuffle,False
+474,12682,Which organ system is imaged?,Head,Respiratory,head,respiratory,open,Organ,patch_shuffle,False
+474,12683,Is the brain abnormal?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+474,12684,How to prevent the occurrence of the disease on the upper right lobe of brain in this image?,"Pay attention to dietary hygiene, strengthen physical fitness and avoid brain trauma",No,pay attention to dietary hygiene strengthen physical fitness and avoid brain trauma,no,open,KG,patch_shuffle,False
+483,12685,Is this image taken via MRI?,Yes,No.,yes,no,closed,Modality,patch_shuffle,False
+483,12686,What is the mr weighting in this image?,T1,T1-weighted,t1,t1weighted,open,Modality,patch_shuffle,False
+483,12687,What scanning plane does this image belong to?,Transverse Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+483,12688,Where does the image represent in the body?,Head,Head,head,head,open,Position,patch_shuffle,True
+483,12689,"Which lobe is abnormal,left or right?",Right,Left,right,left,closed,Position,patch_shuffle,False
+483,12690,Is this a study of the head?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+483,12691,What diseases are included in the picture?,"Brain Edema, Brain Non-enhancing Tumor",No,brain edema brain nonenhancing tumor,no,open,Abnormality,patch_shuffle,False
+483,12692,How much damage will be caused to the body taking such an image?,None,No,none,no,open,KG,patch_shuffle,False
+49,12693,What modality is used to take this image?,MRI,MRI,mri,mri,open,Modality,patch_shuffle,True
+49,12694,Which part of the body does this image belong to?,Brain,Head,brain,head,open,Position,patch_shuffle,False
+49,12695,What is the mr weighting in this image?,T2,T2-weighted,t2,t2weighted,open,Modality,patch_shuffle,False
+49,12696,What is the main organ in the image?,Brain,Kidney,brain,kidney,open,Organ,patch_shuffle,False
+49,12697,What is the largest organ in the picture?,Brain,Skin,brain,skin,open,Size,patch_shuffle,False
+49,12698,Does the picture contain brian?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+49,12699,What diseases are included in the picture?,Brain Edema,No,brain edema,no,open,Abnormality,patch_shuffle,False
+49,12700,Does the brain look abnormal?,Yes,Yes.,yes,yes,closed,Abnormality,patch_shuffle,True
+49,12701,Where is/are the abnormality located?,Lower Right,Head,lower right,head,open,Position,patch_shuffle,False
+495,12702,Is this a X-Ray?,No,Yes.,no,yes,closed,Modality,patch_shuffle,False
+495,12703,"Which kind of weighting is this image generated with, t1 or t2?",T1,T1,t1,t1,closed,Modality,patch_shuffle,False
+495,12704,Is this a coronal plane?,No,No.,no,no,closed,Plane,patch_shuffle,True
+495,12705,Which part of the body does this image belong to?,Head,Head,head,head,open,Position,patch_shuffle,True
+495,12706,Where is/are the abnormality located?,Upper Right Lobe,Head,upper right lobe,head,open,Position,patch_shuffle,False
+495,12707,What organ system is pictured?,Head,Respiratory,head,respiratory,open,Organ,patch_shuffle,False
+495,12708,Is/Are there abnormalities in the patient's left brain lobe?,No,Yes.,no,yes,closed,Abnormality,patch_shuffle,False
+495,12709,How many kinds of abnormalities are there in this image?,2,Yes.,2,yes,open,Quantity,patch_shuffle,False
+495,12710,How much damage will be caused to the body taking such an image?,None,No,none,no,open,KG,patch_shuffle,False
+498,12711,Is this a CT scan?,No,Yes.,no,yes,closed,Modality,patch_shuffle,False
+498,12712,What is the mr weighting in this image?,T1,T1-weighted,t1,t1weighted,open,Modality,patch_shuffle,False
+498,12713,Is this sagittal plane?,No,No.,no,no,closed,Plane,patch_shuffle,True
+498,12714,Do the organs in the image exist in the pelvic cavity?,No,Yes.,no,yes,closed,Position,patch_shuffle,False
+498,12715,Where are the abnormalities in this image?,Left Lobe,Head,left lobe,head,open,Position,patch_shuffle,False
+498,12716,Which organ system is imaged?,Head,Respiratory,head,respiratory,open,Organ,patch_shuffle,False
+498,12717,What diseases are included in the picture?,"Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",No,brain edema brain enhancing tumor brain nonenhancing tumor,no,open,Abnormality,patch_shuffle,False
+498,12718,Is the brain enhancing tumor hyperdense or hypodense?,Hyperdense,Hypodense,hyperdense,hypodense,closed,Color,patch_shuffle,False
+498,12719,What kind of symptoms will the disease on the left lobe of brain in the picture bring to the patient?,"Visual impairment, vomiting, tinnitus, increased intracranial pressure",Yes.,visual impairment vomiting tinnitus increased intracranial pressure,yes,open,KG,patch_shuffle,False
+506,12720,Is this image taken via CT?,No,No.,no,no,closed,Modality,patch_shuffle,True
+506,12721,"Which kind of weighting is this image generated with, t1 or t2?",T1,T1,t1,t1,closed,Modality,patch_shuffle,False
+506,12722,In what plane is this image scanned?,Transverse Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+506,12723,Which part of the human body is the organ located in the image?,Head,Brain,head,brain,open,Position,patch_shuffle,False
+506,12724,Where is the brain tumor located?,Lower Left Lobe,Unknown,lower left lobe,unknown,open,Position,patch_shuffle,False
+506,12725,Is this a study of the chest?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+506,12726,Does the patient have brain tumor?,Yes,No.,yes,no,closed,Abnormality,patch_shuffle,False
+506,12727,What is the main cause of the disease on the left lobe of brain in this picture?,"Brain embryonic tissue dysplasia, genetic factors, chemical factors",Yes.,brain embryonic tissue dysplasia genetic factors chemical factors,yes,open,KG,patch_shuffle,False
+508,12728,How was this image taken?,MRI,Yes.,mri,yes,open,Modality,patch_shuffle,False
+508,12729,What type of MRI is shown in this image?,T1,Yes.,t1,yes,open,Modality,patch_shuffle,False
+508,12730,In what plane is this image scanned?,Transverse Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+508,12731,Where does the image represent in the body?,Head,Brain,head,brain,open,Position,patch_shuffle,False
+508,12732,Where is the brain tumor?,Left Lobe,Unknown,left lobe,unknown,open,Position,patch_shuffle,False
+508,12733,Is this a study of the abdomen?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+508,12734,What diseases are included in the picture?,"Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",No,brain edema brain enhancing tumor brain nonenhancing tumor,no,open,Abnormality,patch_shuffle,False
+508,12735,What density is the brain enhancing tumor ?,Hyperdense,Isodense,hyperdense,isodense,open,Color,patch_shuffle,False
+508,12736,What kind of symptoms will the disease on the left lobe of brain in the picture bring to the patient?,"Visual impairment, vomiting, tinnitus, increased intracranial pressure",Yes.,visual impairment vomiting tinnitus increased intracranial pressure,yes,open,KG,patch_shuffle,False
+513,12737,Is this a CT?,No,No.,no,no,closed,Modality,patch_shuffle,True
+513,12738,Is this an MRI image with T2 weighted?,No,No.,no,no,closed,Modality,patch_shuffle,True
+513,12739,What is the scanning plane of this image?,Transverse Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+513,12740,Do the organs in the image exist in the head?,Yes,No.,yes,no,closed,Position,patch_shuffle,False
+513,12741,Where is/are the abnormality located?,Lower Left Lobe,Head,lower left lobe,head,open,Position,patch_shuffle,False
+513,12742,What organ system is primarily present in this image?,Head,Respiratory,head,respiratory,open,Organ,patch_shuffle,False
+513,12743,What disease is/are shown on the lower left of brain?,"Brain Edema, Brain Enhancing Tumor",Yes,brain edema brain enhancing tumor,yes,open,Abnormality,patch_shuffle,False
+513,12744,What is the color of brain enhancing tumor in this image?,White,No,white,no,open,Color,patch_shuffle,False
+513,12745,How many kinds of abnormalities are there in this image?,2,Yes.,2,yes,open,Quantity,patch_shuffle,False
+513,12746,How to prevent the occurrence of the disease on the lower left lobe of brain in this image?,"Pay attention to dietary hygiene, strengthen physical fitness and avoid brain trauma",No,pay attention to dietary hygiene strengthen physical fitness and avoid brain trauma,no,open,KG,patch_shuffle,False
+525,12747,What modality is used to take this image?,MRI,MRI,mri,mri,open,Modality,patch_shuffle,True
+525,12748,Is this an MRI image with T2 weighted?,Yes,No.,yes,no,closed,Modality,patch_shuffle,False
+525,12749,What is the scanning plane of this image?,Transverse Plane,Yes.,transverse plane,yes,open,Plane,patch_shuffle,False
+525,12750,Do the organs in the image exist in the head?,Yes,No.,yes,no,closed,Position,patch_shuffle,False
+525,12751,Where is the brain non-enhancing tumor?,Left Lobe,Yes.,left lobe,yes,open,Position,patch_shuffle,False
+525,12752,Is this a study of the head?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+525,12753,What disease is/are shown on the left of brain?,"Brain Edema, Brain Non-enhancing Tumor",No,brain edema brain nonenhancing tumor,no,open,Abnormality,patch_shuffle,False
+525,12754,How many kinds of abnormalities are there in this image?,2,Yes.,2,yes,open,Quantity,patch_shuffle,False
+525,12755,How much damage will be caused to the body taking such an image?,None,No,none,no,open,KG,patch_shuffle,False
+529,12756,Is this an MRI scan?,Yes,Yes.,yes,yes,closed,Modality,patch_shuffle,True
+529,12757,What is the mr weighting in this image?,T2,T1-weighted,t2,t1weighted,open,Modality,patch_shuffle,False
+529,12758,Is this a coronal section?,No,No.,no,no,closed,Plane,patch_shuffle,True
+529,12759,Do the organs in the image exist in the neck?,No,Yes.,no,yes,closed,Position,patch_shuffle,False
+529,12760,Where is the brain edema located?,Left Lobe,Yes.,left lobe,yes,open,Position,patch_shuffle,False
+529,12761,What organ system is pictured?,Head,Respiratory,head,respiratory,open,Organ,patch_shuffle,False
+529,12762,Is the brain normal appearing?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+529,12763,How much damage will be caused to the body taking such an image?,None,No,none,no,open,KG,patch_shuffle,False
+53,12764,What modality is used to take this image?,MRI,MRI,mri,mri,open,Modality,patch_shuffle,True
+53,12765,Which part of the body does this image belong to?,Brain,Eye,brain,eye,open,Position,patch_shuffle,False
+53,12766,What is the mr weighting in this image?,T2,T2-weighted,t2,t2weighted,open,Modality,patch_shuffle,False
+53,12767,What is the main organ in the image?,Brain,Kidney,brain,kidney,open,Organ,patch_shuffle,False
+53,12768,What is the largest organ in the picture?,Brain,No,brain,no,open,Size,patch_shuffle,False
+53,12769,Does the picture contain brian?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+53,12770,What diseases are included in the picture?,None,No,none,no,open,Abnormality,patch_shuffle,False
+53,12771,Does the brain look abnormal?,No,Yes.,no,yes,closed,Abnormality,patch_shuffle,False
+532,12772,Is this image taken via MRI?,Yes,No.,yes,no,closed,Modality,patch_shuffle,False
+532,12773,"Which kind of weighting is this image generated with, t1 or t2?",T2,T1,t2,t1,closed,Modality,patch_shuffle,False
+532,12774,Is this a transverse section?,Yes,No.,yes,no,closed,Plane,patch_shuffle,False
+532,12775,Which part do the organs in this image locate from the aspect of the whole body?,Head,Abdomen,head,abdomen,open,Position,patch_shuffle,False
+532,12776,Where are the abnormalities in this image?,Lower Left Lobe,Head,lower left lobe,head,open,Position,patch_shuffle,False
+532,12777,Which organ system is imaged?,Head,Respiratory,head,respiratory,open,Organ,patch_shuffle,False
+532,12778,What disease is/are shown on the left of brain?,Brain Edema,No,brain edema,no,open,Abnormality,patch_shuffle,False
+532,12779,How many kinds of abnormalities are there in this image?,1,Yes.,1,yes,open,Quantity,patch_shuffle,False
+532,12780,How much damage will be caused to the body taking such an image?,None,No,none,no,open,KG,patch_shuffle,False
+538,12781,Which is the kidney in this image?,Symmetrical to the bottom spine,No,symmetrical to the bottom spine,no,open,Position,patch_shuffle,False
+538,12782,What organ is the gray part on the left of the image?,Liver,Lung,liver,lung,open,Organ,patch_shuffle,False
+538,12783,Does the stomach appear in the image?,No,No.,no,no,closed,Organ,patch_shuffle,True
+538,12784,Does the picture contain spleen?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+538,12785,What color is the spleen in the picture?,Gray,Black,gray,black,open,Color,patch_shuffle,False
+538,12786,"Which is smaller in this image,liver or right kidney?",Right Kidney,Yes,right kidney,yes,closed,Size,patch_shuffle,False
+538,12787,How many organs are there in this image?,6,0,6,0,open,Quantity,patch_shuffle,False
+538,12788,How much damage will be caused to the body taking such an image?,Much,None,much,none,open,KG,patch_shuffle,False
+538,12789,Which organs/organ is part of the lymphatic system in this image?,Spleen,No,spleen,no,open,KG,patch_shuffle,False
+538,12790,Which organs/organ is part of the urinary system in this image?,Kidney,Kidney,kidney,kidney,open,KG,patch_shuffle,True
+538,12791,Does the picture contain the organ which has the effect of discharging waste?,Yes,Yes.,yes,yes,closed,KG,patch_shuffle,True
+538,12792,Do any of the organs in the picture belong to the respiratory system?,No,No,no,no,closed,KG,patch_shuffle,True
+543,12793,In what plane is this image scanned?,Transverse Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+543,12794,Where is the colon in this image?,Upper Right,No,upper right,no,open,Position,patch_shuffle,False
+543,12795,Is this a study of the abdomen?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+543,12796,Does the trachea exist in this picture?,No,No.,no,no,closed,Organ,patch_shuffle,True
+543,12797,Does the picture contain bladder?,No,No,no,no,closed,Organ,patch_shuffle,True
+543,12798,"Which is smaller in this image,liver or lung?",Lung,Liver,lung,liver,closed,Size,patch_shuffle,False
+543,12799,How many lungs have existed in this image?,2,0,2,0,open,Quantity,patch_shuffle,False
+543,12800,What is the effect of the organ on the upper left of this image?,"Biotransformation, detoxification",The organ in the upper left of the image appears to be the liver. The,biotransformation detoxification,the organ in the upper left of the image appears to be the liver the,open,KG,patch_shuffle,False
+543,12801,Which organs/organ in the picture belong to the respiratory system?,Lung,Lungs,lung,lungs,open,KG,patch_shuffle,False
+543,12802,Does the picture contain the organ that could be used for secreting enzymes?,No,Yes.,no,yes,closed,KG,patch_shuffle,False
+543,12803,Do any of the organs in the picture belong to the digestive system?,Yes,Yes.,yes,yes,closed,KG,patch_shuffle,True
+548,12804,Which organ system is imaged?,Abdomen,No,abdomen,no,open,Organ,patch_shuffle,False
+548,12805,Does the larynx appear in the image?,No,No.,no,no,closed,Organ,patch_shuffle,True
+548,12806,Does the lung exist in this picture?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+548,12807,"Which is smaller in this image,colon or liver?",Colon,Liver,colon,liver,closed,Size,patch_shuffle,False
+548,12808,How many existing heart in this image?,0,0,0,0,open,Quantity,patch_shuffle,True
+548,12809,What is the function of the organs appearing in pairs in the picture?,Breathe,Respiratory system,breathe,respiratory system,open,KG,patch_shuffle,False
+548,12810,Which organs/organ is part of the digestive system in this image?,"Stomach, Colon",No,stomach colon,no,open,KG,patch_shuffle,False
+548,12811,Which organs/organ in the picture belong to the urinary system?,Kidney,No,kidney,no,open,KG,patch_shuffle,False
+548,12812,Does the picture contain the organ which has the effect of detoxicating?,Yes,Yes.,yes,yes,closed,KG,patch_shuffle,True
+548,12813,Does the picture contain the organ which has the effect of adjusting water and osmotic pressure balance?,Yes,Yes.,yes,yes,closed,KG,patch_shuffle,True
+554,12814,What organ is the gray part on the right of the image?,Small Bowel,Kidney,small bowel,kidney,open,Organ,patch_shuffle,False
+554,12815,Does the picture contain colon?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+554,12816,Does the picture contain brain stem?,No,No,no,no,closed,Organ,patch_shuffle,True
+554,12817,"Which is smaller in this image,kidney or small bowel?",Kidney,Small bowel,kidney,small bowel,closed,Size,patch_shuffle,False
+554,12818,How many existing heart in this image?,0,0,0,0,open,Quantity,patch_shuffle,True
+554,12819,What is the effect of the organ on the top of this image?,"Absorb nutrients, secrete enzymes, digest food",No,absorb nutrients secrete enzymes digest food,no,open,KG,patch_shuffle,False
+554,12820,Are there some organs controlling heartbeat and breathing in this image?,No,No.,no,no,closed,KG,patch_shuffle,True
+554,12821,Does the picture contain the organ which has the effect of digesting food?,Yes,Yes.,yes,yes,closed,KG,patch_shuffle,True
+557,12822,Which is the kidney in this image?,Symmetrical to the bottom spine,No,symmetrical to the bottom spine,no,open,Position,patch_shuffle,False
+557,12823,What organ is the black part on the upper left of the image?,Small Bowel,Liver,small bowel,liver,open,Organ,patch_shuffle,False
+557,12824,Does the rectum appear in this picture?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+557,12825,Does the picture contain heart?,No,No,no,no,closed,Organ,patch_shuffle,True
+557,12826,What color does the left kidney show in the picture?,Gray,Black,gray,black,open,Color,patch_shuffle,False
+557,12827,"Which is smaller in this image, liver or right kidney?",Liver,Right kidney,liver,right kidney,closed,Size,patch_shuffle,False
+557,12828,How many organs are there in this image?,5,0,5,0,open,Quantity,patch_shuffle,False
+557,12829,What is the shape of spinal cord in this image?,Circular,Square,circular,square,open,Shape,patch_shuffle,False
+557,12830,What is the effect of the organ on the top of this image?,"Absorb nutrients, secrete enzymes, digest food",No,absorb nutrients secrete enzymes digest food,no,open,KG,patch_shuffle,False
+557,12831,Which organs/organ is part of the nervous system in this image?,Spinal cord,Brain,spinal cord,brain,open,KG,patch_shuffle,False
+557,12832,Does the picture contain the organ which has the effect of digesting food?,Yes,Yes.,yes,yes,closed,KG,patch_shuffle,True
+557,12833,Does the picture contain the organ that could be used for secreting enzymes?,Yes,Yes.,yes,yes,closed,KG,patch_shuffle,True
+561,12834,Where is the liver in this image?,Left,No,left,no,open,Position,patch_shuffle,False
+561,12835,Is this a study of the abdomen?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+561,12836,Does the picture contain colon?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+561,12837,Does the humerus head exist in this picture?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+561,12838,What color does the duodenum show in the picture?,Gray,Black,gray,black,open,Color,patch_shuffle,False
+561,12839,"Which is smaller in this image, spleen or kidney?",Spleen,Spleen,spleen,spleen,closed,Size,patch_shuffle,False
+561,12840,How many lungs have existed in this image?,0,One,0,one,open,Quantity,patch_shuffle,False
+561,12841,What is the shape of spleen in the picture?,Oval,Irregular,oval,irregular,open,Shape,patch_shuffle,False
+561,12842,What is the function of the organ on the center of this image?,"Absorb nutrients, secrete enzymes, digest food",Heart,absorb nutrients secrete enzymes digest food,heart,open,KG,patch_shuffle,False
+561,12843,Which organs/organ is part of the nervous system in this image?,Spinal cord,Brain,spinal cord,brain,open,KG,patch_shuffle,False
+561,12844,Are there organs in the picture that can adjust water and osmotic pressure balance?,Yes,Yes.,yes,yes,closed,KG,patch_shuffle,True
+561,12845,Are there any organs used for breathing in this image?,No,No.,no,no,closed,KG,patch_shuffle,True
+573,12846,Is this a transverse section?,Yes,No.,yes,no,closed,Plane,patch_shuffle,False
+573,12847,Where is the stomach in this image?,Upper Right,No,upper right,no,open,Position,patch_shuffle,False
+573,12848,Which organ system is imaged?,Abdomen,Respiratory,abdomen,respiratory,open,Organ,patch_shuffle,False
+573,12849,Does the picture contain eyes?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+573,12850,Is there femoral head in this picture?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+573,12851,"Which is bigger in this image,liver or stomach?",Liver,Liver,liver,liver,closed,Size,patch_shuffle,False
+573,12852,How many kidneys have existed in this image?,0,One,0,one,open,Quantity,patch_shuffle,False
+573,12853,What is the shape of spinal cord in this image?,Circular,Irregular,circular,irregular,open,Shape,patch_shuffle,False
+573,12854,What is the function of the rightmost organ in this picture?,Improve the body's immunity,Kidney,improve the bodys immunity,kidney,open,KG,patch_shuffle,False
+573,12855,Which organs/organ in the picture belong to the lymphatic system?,Spleen,No,spleen,no,open,KG,patch_shuffle,False
+573,12856,Does the picture contain the organ that could receive sound?,No,Yes.,no,yes,closed,KG,patch_shuffle,False
+573,12857,Does the picture contain the organ which has the effect of gas delivery?,No,Yes.,no,yes,closed,KG,patch_shuffle,False
+578,12858,In what plane is this image scanned?,Transverse Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+578,12859,Where is the esophagus in this image?,Center,No,center,no,open,Position,patch_shuffle,False
+578,12860,What is the organ system visualized?,Abdomen,No,abdomen,no,open,Organ,patch_shuffle,False
+578,12861,Does the esophagus exist in this picture?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+578,12862,Does the stomach appear in the image?,No,No.,no,no,closed,Organ,patch_shuffle,True
+578,12863,What color is the spleen in this image?,Gray,Black,gray,black,open,Color,patch_shuffle,False
+578,12864,"Which is the biggest in this image, spleen, heart or liver?",Liver,Liver,liver,liver,closed,Size,patch_shuffle,False
+578,12865,How many existing heart in this image?,1,0,1,0,open,Quantity,patch_shuffle,False
+578,12866,How much damage will be caused to the body taking such an image?,Much,None,much,none,open,KG,patch_shuffle,False
+578,12867,Are there organs in the picture that can digest food?,No,No.,no,no,closed,KG,patch_shuffle,True
+58,12868,What modality is used to take this image?,MRI,X-ray,mri,xray,open,Modality,patch_shuffle,False
+58,12869,Which part of the body does this image belong to?,Brain,Head,brain,head,open,Position,patch_shuffle,False
+58,12870,What is the mr weighting in this image?,T2,T2-weighted,t2,t2weighted,open,Modality,patch_shuffle,False
+58,12871,What is the main organ in the image?,Brain,Kidney,brain,kidney,open,Organ,patch_shuffle,False
+58,12872,What is the largest organ in the picture?,Brain,Skin,brain,skin,open,Size,patch_shuffle,False
+58,12873,Does the picture contain brian?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+58,12874,What diseases are included in the picture?,"Brain Tumor, Brain Edema",No,brain tumor brain edema,no,open,Abnormality,patch_shuffle,False
+58,12875,Is the brain healthy?,No,No.,no,no,closed,Abnormality,patch_shuffle,True
+58,12876,Where is/are the abnormality located?,Lower Left,Head,lower left,head,open,Position,patch_shuffle,False
+580,12877,Which part of the body does this image belong to?,Abdomen,Head,abdomen,head,open,Position,patch_shuffle,False
+580,12878,"Where is the heart in this image,left,top or upper left?",Top,Top,top,top,closed,Position,patch_shuffle,False
+580,12879,Is this a study of the abdomen?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+580,12880,Does the picture contain heart?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+580,12881,Does the picture contain stomach?,No,No.,no,no,closed,Organ,patch_shuffle,True
+580,12882,"Which is smaller in this image, esophagus or liver?",Esophagus,Liver,esophagus,liver,closed,Size,patch_shuffle,False
+580,12883,How many lungs have existed in this image?,2,One,2,one,open,Quantity,patch_shuffle,False
+580,12884,How much damage will be caused to the body taking such an image?,Much,None,much,none,open,KG,patch_shuffle,False
+580,12885,Which organs/organ in the picture belong to the digestive system?,Esophagus,No,esophagus,no,open,KG,patch_shuffle,False
+580,12886,Does the picture contain the organ which has the effect of gas delivery?,No,Yes.,no,yes,closed,KG,patch_shuffle,False
+580,12887,Does the picture contain the organ that could promote blood flow?,Yes,Yes.,yes,yes,closed,KG,patch_shuffle,True
+586,12888,In what plane is this image scanned?,Transverse Plane,Axial,transverse plane,axial,open,Plane,patch_shuffle,False
+586,12889,What is the leftmost organ in this image?,Right Lung,No,right lung,no,open,Organ,patch_shuffle,False
+586,12890,Does the picture contain spinal cord?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+586,12891,Does the rectum appear in this picture?,No,No,no,no,closed,Organ,patch_shuffle,True
+586,12892,What color is the lung in this image?,Black,Black,black,black,open,Color,patch_shuffle,True
+586,12893,"Which is smaller in this image,heart or esophagus?",Esophagus,Yes,esophagus,yes,closed,Size,patch_shuffle,False
+586,12894,How many organs are there in this image?,4,0,4,0,open,Quantity,patch_shuffle,False
+586,12895,What is the function of the organ on the top of this image?,Promote blood flow,Heart,promote blood flow,heart,open,KG,patch_shuffle,False
+586,12896,Does the picture contain the organ that could receive sound?,No,Yes.,no,yes,closed,KG,patch_shuffle,False
+586,12897,Does the picture contain the organ which has the effect of sensing light?,No,Yes.,no,yes,closed,KG,patch_shuffle,False
+604,12898,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+604,12899,Where does the image represent in the body?,Pelvic Cavity,Brain,pelvic cavity,brain,open,Position,patch_shuffle,False
+604,12900,Where is the rectum existing in this image?,Bottom,No,bottom,no,open,Position,patch_shuffle,False
+604,12901,What organ system is primarily present in this image?,Pelvic Cavity,Respiratory,pelvic cavity,respiratory,open,Organ,patch_shuffle,False
+604,12902,Does the picture contain bladder?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+604,12903,Does the parotid appear in the image?,No,Yes.,no,yes,closed,Organ,patch_shuffle,False
+604,12904,"Which is smaller in this image, bladder or rectum?",Rectum,Bladder,rectum,bladder,closed,Size,patch_shuffle,False
+604,12905,How many femoral heads are shown in this image?,0,Yes.,0,yes,open,Quantity,patch_shuffle,False
+604,12906,What is the function of the organ on the bottom of this picture?,"Store feces, excrete feces",Kidney,store feces excrete feces,kidney,open,KG,patch_shuffle,False
+604,12907,Which organs/organ in the picture belong to the digestive system?,Rectum,No,rectum,no,open,KG,patch_shuffle,False
+604,12908,Does the picture contain the organ which has the effect of discharging waste?,No,Yes.,no,yes,closed,KG,patch_shuffle,False
+604,12909,Does the picture contain the organ which has the effect of excreting feces?,Yes,No,yes,no,closed,KG,patch_shuffle,False
+605,12910,Is this a coronal section?,No,No.,no,no,closed,Plane,patch_shuffle,True
+605,12911,Which part do the organs in this image locate from the aspect of the whole body?,Pelvic Cavity,Abdomen,pelvic cavity,abdomen,open,Position,patch_shuffle,False
+605,12912,Where is rectum in this image?,Bottom,No,bottom,no,open,Position,patch_shuffle,False
+605,12913,What is the organ system visualized?,Pelvic Cavity,No,pelvic cavity,no,open,Organ,patch_shuffle,False
+605,12914,Does the picture contain rectum?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+605,12915,Does the picture contain bladder?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+605,12916,What is the largest organ in the picture?,Bladder,Skin,bladder,skin,open,Size,patch_shuffle,False
+605,12917,What is the effect of the gray organ on the center of this picture?,Store urine,"The central gray organ appears to be a heart, which is crucial for pumping blood",store urine,the central gray organ appears to be a heart which is crucial for pumping blood,open,KG,patch_shuffle,False
+605,12918,Which organs/organ is part of the digestive system in this image?,Rectum,No,rectum,no,open,KG,patch_shuffle,False
+605,12919,Does the picture contain the organ which has the effect of excreting feces?,Yes,No,yes,no,closed,KG,patch_shuffle,False
+605,12920,Does the picture contain the organ which has the effect of detoxicating?,No,Yes.,no,yes,closed,KG,patch_shuffle,False
+622,12921,Which part of the body does this image belong to?,Pelvic Cavity,Head,pelvic cavity,head,open,Position,patch_shuffle,False
+622,12922,Is this a study of the pelvic cavity?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+622,12923,Does the picture contain colon?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+622,12924,Which organs/organ in the picture belong to the urinary system?,Bladder,Kidney,bladder,kidney,open,KG,patch_shuffle,False
+622,12925,Are there organs in the picture that can deliver food?,No,No.,no,no,closed,KG,patch_shuffle,True
+628,12926,How was this image taken?,CT,Yes.,ct,yes,open,Modality,patch_shuffle,False
+628,12927,Where does the picture show?,Pelvic Cavity,Head,pelvic cavity,head,open,Position,patch_shuffle,False
+628,12928,Does the rectum exist in this picture?,No,No,no,no,closed,Organ,patch_shuffle,True
+628,12929,"Which is bigger in this image, small bowel or colon?",Small Bowel,Colon,small bowel,colon,closed,Size,patch_shuffle,False
+628,12930,What is the function of the organ on the bottom of this image?,"Digest food, absorb water, excrete body waste",Kidney,digest food absorb water excrete body waste,kidney,open,KG,patch_shuffle,False
+628,12931,Do any of the organs in the picture belong to the urinary system?,No,No,no,no,closed,KG,patch_shuffle,True
+629,12932,What organ system is pictured?,Pelvic Cavity,Respiratory,pelvic cavity,respiratory,open,Organ,patch_shuffle,False
+629,12933,Is there colon in the image?,Yes,Yes.,yes,yes,closed,Organ,patch_shuffle,True
+629,12934,"Which is smaller in this image, colon or small bowel?",Colon,Small bowel,colon,small bowel,closed,Size,patch_shuffle,False
+629,12935,What is the function of the organ on the top of this image?,"Absorb nutrients, secrete enzymes, digest food",Respiratory system,absorb nutrients secrete enzymes digest food,respiratory system,open,KG,patch_shuffle,False
+629,12936,Do any of the organs in the picture belong to the digestive system?,Yes,Yes.,yes,yes,closed,KG,patch_shuffle,True
+634,12937,Is this a coronal plane?,No,No.,no,no,closed,Plane,patch_shuffle,True
+634,12938,Which part of the human body is the organ located in the image?,Pelvic Cavity,Brain,pelvic cavity,brain,open,Position,patch_shuffle,False
+634,12939,Where is colon in this image?,Upper Left,No,upper left,no,open,Position,patch_shuffle,False
+634,12940,What organ system is primarily present in this image?,Pelvic Cavity,Respiratory,pelvic cavity,respiratory,open,Organ,patch_shuffle,False
+634,12941,Is there spinal cord in this picture?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+634,12942,What is the effect of the organ on the left of this picture?,"Digest food, absorb water, excrete body waste",No,digest food absorb water excrete body waste,no,open,KG,patch_shuffle,False
+634,12943,Which organs/organ is part of the digestive system in this image?,"Colon, Small Bowel",No,colon small bowel,no,open,KG,patch_shuffle,False
+634,12944,Are there organs in the picture that can promote blood flow?,No,Yes.,no,yes,closed,KG,patch_shuffle,False
+71,12945,What modality is used to take this image?,MRI,MRI,mri,mri,open,Modality,patch_shuffle,True
+71,12946,Which part of the body does this image belong to?,Brain,Head,brain,head,open,Position,patch_shuffle,False
+71,12947,What is the mr weighting in this image?,T2,T2-weighted,t2,t2weighted,open,Modality,patch_shuffle,False
+71,12948,What is the main organ in the image?,Brain,No,brain,no,open,Organ,patch_shuffle,False
+71,12949,What is the largest organ in the picture?,Brain,No,brain,no,open,Size,patch_shuffle,False
+71,12950,Does the picture contain brian?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+71,12951,What diseases are included in the picture?,None,No,none,no,open,Abnormality,patch_shuffle,False
+71,12952,Is the brain healthy?,Yes,No.,yes,no,closed,Abnormality,patch_shuffle,False
+77,12953,What modality is used to take this image?,MRI,MRI,mri,mri,open,Modality,patch_shuffle,True
+77,12954,Which part of the body does this image belong to?,Brain,Head,brain,head,open,Position,patch_shuffle,False
+77,12955,What is the mr weighting in this image?,T2,T2-weighted,t2,t2weighted,open,Modality,patch_shuffle,False
+77,12956,What is the main organ in the image?,Brain,No,brain,no,open,Organ,patch_shuffle,False
+77,12957,What is the largest organ in the picture?,Brain,Skin,brain,skin,open,Size,patch_shuffle,False
+77,12958,Does the picture contain brian?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+77,12959,What diseases are included in the picture?,None,No,none,no,open,Abnormality,patch_shuffle,False
+77,12960,Is the brain healthy?,Yes,No.,yes,no,closed,Abnormality,patch_shuffle,False
+82,12961,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+82,12962,Which part of the body does this image belong to?,Chest,Head,chest,head,open,Position,patch_shuffle,False
+82,12963,What is the main organ in the image?,Lung,No,lung,no,open,Organ,patch_shuffle,False
+82,12964,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+82,12965,Does the picture contain liver?,No,No.,no,no,closed,Organ,patch_shuffle,True
+82,12966,Does the picture contain lung?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+82,12967,Does the picture contain heart?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+82,12968,What diseases are included in the picture?,None,No,none,no,open,Abnormality,patch_shuffle,False
+82,12969,Is the lung healthy?,Yes,No.,yes,no,closed,Abnormality,patch_shuffle,False
+82,12970,"Which is the biggest in this image,lung,liver or heart?",Lung,Liver,lung,liver,closed,Size,patch_shuffle,False
+85,12971,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+85,12972,Which part of the body does this image belong to?,Chest,Eye,chest,eye,open,Position,patch_shuffle,False
+85,12973,What is the main organ in the image?,Liver,No,liver,no,open,Organ,patch_shuffle,False
+85,12974,What is the largest organ in the picture?,Liver,Skin,liver,skin,open,Size,patch_shuffle,False
+85,12975,Does the picture contain liver?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+85,12976,Does the picture contain lung?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+85,12977,Does the picture contain heart?,No,No,no,no,closed,Organ,patch_shuffle,True
+85,12978,Does the lung look healthy?,Yes,No.,yes,no,closed,Abnormality,patch_shuffle,False
+85,12979,"Which is the biggest in this image,lung,liver or heart?",Liver,Lung,liver,lung,closed,Size,patch_shuffle,False
+90,12980,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+90,12981,Which part of the body does this image belong to?,Chest,Skin,chest,skin,open,Position,patch_shuffle,False
+90,12982,What is the main organ in the image?,"Lung, Heart",No,lung heart,no,open,Organ,patch_shuffle,False
+90,12983,What is the largest organ in the picture?,Lung,Skin,lung,skin,open,Size,patch_shuffle,False
+90,12984,Does the picture contain liver?,No,No.,no,no,closed,Organ,patch_shuffle,True
+90,12985,Does the picture contain lung?,Yes,No,yes,no,closed,Organ,patch_shuffle,False
+90,12986,Does the picture contain heart?,Yes,No.,yes,no,closed,Organ,patch_shuffle,False
+90,12987,Is the lung healthy?,Yes,No.,yes,no,closed,Abnormality,patch_shuffle,False
+90,12988,"Which is the biggest in this image,lung,liver or heart?",Lung,Lung,lung,lung,closed,Size,patch_shuffle,False
+93,12989,What modality is used to take this image?,CT,MRI,ct,mri,open,Modality,patch_shuffle,False
+93,12990,Which part of the body does this image belong to?,Chest,Head,chest,head,open,Position,patch_shuffle,False
+93,12991,What is the main organ in the image?,Spinal Cord,No,spinal cord,no,open,Organ,patch_shuffle,False
+93,12992,Does the picture contain liver?,No,No,no,no,closed,Organ,patch_shuffle,True
+93,12993,Does the picture contain lung?,No,No,no,no,closed,Organ,patch_shuffle,True
+93,12994,Does the picture contain heart?,No,No,no,no,closed,Organ,patch_shuffle,True
